@@ -1,12 +1,12 @@
 .skills {
-  margin: 15rem 0;
-
   .statement {
     @include body-font--large;
-    margin: 15rem 0;
+    @include section-spacing;
   }
 
   .list {
+    @include section-spacing;
+
     .list__item {
       @include list-font;
       border-bottom: 2px solid #000;

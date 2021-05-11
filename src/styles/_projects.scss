@@ -1,8 +1,10 @@
 .projects {
+  @include section-spacing;
+  
   .statement {
     @include body-font--large;
+    @include section-spacing;
     margin-left: 50%;
-    margin-bottom: 15rem;
   }
 
   .project {
@@ -13,7 +15,6 @@
 
     &:last-of-type {
       border-bottom: 1px solid #000;
-      margin-bottom: 15rem;
     }
 
     .info {
