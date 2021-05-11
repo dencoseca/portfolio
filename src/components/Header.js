@@ -6,9 +6,9 @@ function Header() {
       <header className="header">
         <div className="logo">leonbrown.dev</div>
         <div className="links">
-          <span className="link">about</span>
           <span className="link">skills</span>
           <span className="link">work</span>
+          <span className="link">contact</span>
         </div>
       </header>
     </div>
