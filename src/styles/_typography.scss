@@ -23,6 +23,11 @@ html {
   font-weight: 500;
 }
 
+@mixin heading-font--xlarge {
+  font-size: 8rem;
+  font-weight: 500;
+}
+
 @mixin heading-font--large {
   font-size: 5rem;
   font-weight: 600;

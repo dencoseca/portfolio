@@ -1,0 +1,17 @@
+footer {
+  @include body-font--medium;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: end;
+
+  h2 {
+    @include heading-font--large;
+    margin-bottom: 1.3rem;
+  }
+
+  .links {
+    .link {
+      margin: 0.2rem 0;
+    }
+  }
+}

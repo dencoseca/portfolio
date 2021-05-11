@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 // Components
 import Header from '../components/Header'
@@ -13,6 +14,7 @@ function index() {
       <Hero />
       <Skills />
       <Projects />
+      <Footer />
     </>
   )
 }
