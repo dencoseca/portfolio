@@ -29,7 +29,17 @@ html {
 }
 
 @mixin body-font--small {
-  font-size: 0.875rem;
-  line-height: 1.2rem;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
   font-weight: 400;
+}
+
+@mixin body-font--large {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+@mixin list-font {
+  font-size: 4rem;
+  font-weight: 500;
 }

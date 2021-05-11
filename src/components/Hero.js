@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="container">
         <div className="text">
           <h1>Hi, I'm Leon</h1>
@@ -19,7 +19,7 @@ function Hero() {
         alt="desk"
         layout="fullWidth"
       />
-    </div>
+    </section>
   )
 }
 
