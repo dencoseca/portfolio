@@ -1,12 +1,21 @@
 .hero {
   .text {
-    height: 400px;
+    height: 30rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
 
-    .tagline {
+    h1 {
+      @include heading-font;
+      margin-bottom: 2rem;
+      vertical-align: bottom;
       width: 50%;
+    }
+
+    .tagline {
+      @include body-font--small;
+      margin-bottom: 2.5rem;
+      width: 30%;
     }
   }
 }
