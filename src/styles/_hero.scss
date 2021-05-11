@@ -1,0 +1,12 @@
+.hero {
+  .text {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .tagline {
+      width: 50%;
+    }
+  }
+}

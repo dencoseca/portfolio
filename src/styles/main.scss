@@ -1,0 +1,12 @@
+@import 'normalize';
+
+// Components
+@import 'header';
+@import 'hero';
+
+// General Styles
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
