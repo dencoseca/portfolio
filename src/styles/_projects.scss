@@ -1,0 +1,45 @@
+.projects {
+  .statement {
+    @include body-font--medium;
+    margin-left: 50%;
+    width: 23rem;
+    margin-bottom: 15rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #000;
+    padding: 2rem 0;
+
+    &:last-of-type {
+      border-bottom: 1px solid #000;
+      margin-bottom: 15rem;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .content {
+        width: 60%;
+
+        &__title {
+          @include heading-font--medium;
+          margin-top: 0;
+        }
+
+        &__description {
+          @include body-font--small;
+        }
+      }
+    }
+
+    .image {
+      &--narrow {
+        width: 83%;
+      }
+    }
+  }
+}

@@ -23,12 +23,23 @@ html {
   font-weight: 400;
 }
 
-@mixin heading-font {
+@mixin heading-font--large {
   font-size: 5rem;
   font-weight: 600;
 }
 
+@mixin heading-font--medium {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 @mixin body-font--small {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+@mixin body-font--medium {
   font-size: 1.5rem;
   line-height: 1.6rem;
   font-weight: 400;
