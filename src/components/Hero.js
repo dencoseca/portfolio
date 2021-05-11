@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 function Hero() {
   return (
     <div className="hero">
-        <div className="container">
+      <div className="container">
         <div className="text">
           <h1>Hi, I'm Leon</h1>
           <p className="tagline">
@@ -14,8 +14,10 @@ function Hero() {
         </div>
       </div>
       <StaticImage
+        className="image"
         src="https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2528&q=80"
         alt="desk"
+        layout="fullWidth"
       />
     </div>
   )

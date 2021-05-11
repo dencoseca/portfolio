@@ -5,19 +5,31 @@ $primary-font: 'Inter', sans-serif;
 body,
 html {
   font-family: $primary-font;
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 @mixin link-font {
   font-size: 0.875rem;
+  line-height: 1.2rem;
   font-weight: 400;
 }
 
 @mixin heading-font {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 
 @mixin body-font--small {
   font-size: 0.875rem;
+  line-height: 1.2rem;
   font-weight: 400;
 }
