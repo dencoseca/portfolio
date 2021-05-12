@@ -17,7 +17,7 @@ function Hero() {
             <div className="sentence--end__line">a developer</div>
             <div className="sentence--end__line">based in Sheffield, UK</div>
             <div className="sentence--end__line">
-              looking for my first professional position
+              looking for my first position
             </div>
             <div className="sentence--end__line">self-taught</div>
             <div className="sentence--end__line">hard-working</div>
