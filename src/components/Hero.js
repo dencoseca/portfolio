@@ -8,8 +8,8 @@ function Hero() {
         <div className="text">
           <h1>Hi, I'm Leon</h1>
           <p className="tagline">
-            I'm a developer based in Sheffield in the UK, looking for my first
-            developer position. Have a look at what I've done so far.
+            A developer based in Sheffield in the UK, looking for my first
+            professional position. Have a look at what I've done so far.
           </p>
         </div>
       </div>

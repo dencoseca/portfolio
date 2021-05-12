@@ -29,13 +29,13 @@ html {
 }
 
 @mixin heading-font--large {
-  font-size: 5rem;
+  font-size: 5.5rem;
   font-weight: 600;
 }
 
 @mixin heading-font--medium {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @mixin body-font--small {

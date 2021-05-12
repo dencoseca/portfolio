@@ -44,7 +44,7 @@ function Projects() {
           </div>
         </div>
         <div className="project">
-          <div className="image--narrow">
+          <div className="image image--narrow">
             <StaticImage
               src="../images/pokemon-sprites.jpg"
               alt="bragazzi's cafe"
@@ -113,7 +113,7 @@ function Projects() {
           </div>
         </div>
         <div className="project">
-          <div className="image--narrow">
+          <div className="image image--narrow">
             <StaticImage
               src="../images/marine-venus.jpg"
               alt="bragazzi's cafe"
