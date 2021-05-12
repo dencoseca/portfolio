@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className="container">
-      <footer>
+      <footer data-scroll-section>
         <h2>Get in touch</h2>
         <div className="links">
           <a href="mailto:leon.brown71@icloud.com" className="link">

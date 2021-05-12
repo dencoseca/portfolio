@@ -3,14 +3,50 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" data-scroll-section>
       <div className="container">
         <div className="text">
-          <h1>Hi, I'm Leon</h1>
-          <p className="tagline">
-            A developer based in Sheffield in the UK, looking for my first
-            professional position. Have a look at what I've done so far.
-          </p>
+          <h1 data-scroll>
+            <span data-scroll data-scroll-speed="-2" data-scroll-position="top">
+              H
+            </span>
+            <span data-scroll data-scroll-speed="-1.9" data-scroll-position="top">
+              i
+            </span>
+            <span
+              data-scroll
+              data-scroll-speed="-1.8"
+              data-scroll-position="top"
+            >
+              ,
+            </span>{' '}
+            <span data-scroll data-scroll-speed="-1.7" data-scroll-position="top">
+              I
+            </span>
+            <span data-scroll data-scroll-speed="-1.6" data-scroll-position="top">
+              '
+            </span>
+            <span
+              data-scroll
+              data-scroll-speed="-1.5"
+              data-scroll-position="top"
+            >
+              m
+            </span>{' '}
+            <span data-scroll data-scroll-speed="-1.4" data-scroll-position="top">
+              L
+            </span>
+            <span data-scroll data-scroll-speed="-1.3" data-scroll-position="top">
+              e
+            </span>
+            <span data-scroll data-scroll-speed="-1.2" data-scroll-position="top">
+              o
+            </span>
+            <span data-scroll data-scroll-speed="-1" data-scroll-position="top">
+              n
+            </span>
+          </h1>
+          <p className="tagline">A developer based in Sheffield, UK.</p>
         </div>
       </div>
       <StaticImage

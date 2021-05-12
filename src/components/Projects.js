@@ -6,7 +6,7 @@ import { arrowSVG, githubSVG } from '../images/svgs'
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" data-scroll-section>
       <div className="container">
         <div className="statement">
           I love to learn by building real things. Some of these projects are

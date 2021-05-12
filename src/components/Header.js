@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className="container">
+    <div className="container" data-scroll-section>
       <header>
         <div className="logo">leonbrown.dev</div>
         <div className="links">

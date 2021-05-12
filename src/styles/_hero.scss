@@ -9,6 +9,10 @@
       @include heading-font--large;
       margin-bottom: 2.5rem;
       width: 50%;
+
+      span {
+        display: inline-block;
+      }
     }
 
     .tagline {

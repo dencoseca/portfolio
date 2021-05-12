@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" data-scroll-section>
       <div className="container">
         <p className="statement">
           I love to design beautiful, intuitive and responsive stuffs on the
@@ -12,14 +12,78 @@ function Skills() {
         </p>
       </div>
       <div className="list">
-        <div className="list__item">REACT</div>
-        <div className="list__item">GATSBY</div>
-        <div className="list__item">SASS</div>
-        <div className="list__item">NODE</div>
-        <div className="list__item">EXPRESS</div>
-        <div className="list__item">MONGODB</div>
-        <div className="list__item">GSAP</div>
-        <div className="list__item">FRAMER MOTION</div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1"
+          >
+            REACT
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1.2"
+          >
+            GATSBY
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1.5"
+          >
+            SASS
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1.4"
+          >
+            NODE
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="2.5"
+          >
+            EXPRESS
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1.3"
+          >
+            MONGODB
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="3"
+          >
+            GSAP
+          </span>
+        </div>
+        <div className="list__item">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="1.6"
+          >
+            FRAMER MOTION
+          </span>
+        </div>
       </div>
     </section>
   )

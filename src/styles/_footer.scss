@@ -3,6 +3,7 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: end;
+  margin-bottom: 3rem;
 
   h2 {
     @include heading-font--large;
