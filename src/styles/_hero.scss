@@ -1,28 +1,25 @@
 .hero {
-  .text {
-    height: 30rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+}
 
-    h1 {
-      @include heading-font--large;
-      margin-bottom: 2.5rem;
-      width: 50%;
+#sticky-target {
+}
 
-      span {
-        display: inline-block;
-      }
-    }
+.sentence {
+  padding-top: 20rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
 
-    .tagline {
-      @include body-font--medium;
-      margin-bottom: 3.3rem;
-      width: 35%;
-    }
-  }
+.sentence--start {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: right;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
 
-  .image {
-    height: 40rem;
-  }
+.sentence--end {
+  display: inline-block;
+  width: 70%;
 }
