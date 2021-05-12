@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="container">
       <section className="hero" data-scroll-section>
-        <div id="sticky-target" data-scroll-offset="0, 20%">
+        <div id="sticky-target">
           <div
             className="sentence sentence--start"
             data-scroll
@@ -14,13 +14,11 @@ function Hero() {
             Hi, I'm
           </div>
           <div className="sentence sentence--end">
-            <div className="sentence--end__line">a developer</div>
-            <div className="sentence--end__line">based in Sheffield, UK</div>
-            <div className="sentence--end__line">
-              looking for my first position
-            </div>
-            <div className="sentence--end__line">self-taught</div>
-            <div className="sentence--end__line">hard-working</div>
+            <div>a developer</div>
+            <div>based in Sheffield, UK</div>
+            <div>looking for my first position</div>
+            <div>self-taught</div>
+            <div>hard-working</div>
           </div>
         </div>
       </section>

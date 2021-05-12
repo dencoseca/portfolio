@@ -17,6 +17,10 @@
   text-align: right;
   padding-right: 1.5rem;
   box-sizing: border-box;
+
+  span {
+    display: inline-block;
+  }
 }
 
 .sentence--end {
