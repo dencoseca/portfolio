@@ -1,10 +1,9 @@
 .hero {
+  @include heading-font--large;
   margin: 0 auto;
-  
+
   .sentence {
     padding-top: 20rem;
-    font-size: 4.3rem;
-    font-weight: 500;
   }
 
   .sentence--start {

@@ -1,10 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$primary-font: 'Inter', sans-serif;
+@font-face {
+  font-family: 'Sk-Modernist-Light';
+  src: url('../fonts/Light/sk-modernist-light-webfont.eot');
+  src: url('../fonts/Light/sk-modernist-light-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Light/sk-modernist-light-webfont.woff') format('woff'),
+    url('../fonts/Light/sk-modernist-light-webfont.ttf') format('truetype'),
+    url('../fonts/Light/sk-modernist-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'Sk-Modernist-Regular';
+  src: url('../fonts/Regular/sk-modernist-regular-webfont.eot');
+  src: url('../fonts/Regular/sk-modernist-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Regular/sk-modernist-regular-webfont.woff') format('woff'),
+    url('../fonts/Regular/sk-modernist-regular-webfont.ttf') format('truetype'),
+    url('../fonts/Regular/sk-modernist-regular-webfont.svg#webfont')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'Sk-Modernist-Bold';
+  src: url('../fonts/Bold/sk-modernist-bold-webfont.eot');
+  src: url('../fonts/Bold/sk-modernist-bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Bold/sk-modernist-bold-webfont.woff') format('woff'),
+    url('../fonts/Bold/sk-modernist-bold-webfont.ttf') format('truetype'),
+    url('../fonts/Bold/sk-modernist-bold-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'Sk-Modernist-Mono';
+  src: url('../fonts/Mono/sk-modernist-mono-webfont.eot');
+  src: url('../fonts/Mono/sk-modernist-mono-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Mono/sk-modernist-mono-webfont.woff') format('woff'),
+    url('../fonts/Mono/sk-modernist-mono-webfont.ttf') format('truetype'),
+    url('../fonts/Mono/sk-modernist-mono-webfont.svg#webfont') format('svg');
+}
+
+$light: 'Sk-Modernist-Light';
+$regular: 'Sk-Modernist-Regular';
+$bold: 'Sk-Modernist-Bold';
+$mono: 'Sk-Modernist-Mono';
 
 body,
 html {
-  font-family: $primary-font;
+  font-family: $regular;
   /* Adjust font size */
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -17,20 +61,14 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-@mixin link-font {
-  font-size: 0.875rem;
-  line-height: 1.2rem;
-  font-weight: 500;
-}
-
 @mixin heading-font--xlarge {
   font-size: 8rem;
   font-weight: 500;
 }
 
 @mixin heading-font--large {
-  font-size: 5.5rem;
-  font-weight: 600;
+  font-size: 4.3rem;
+  font-weight: 500;
 }
 
 @mixin heading-font--medium {
