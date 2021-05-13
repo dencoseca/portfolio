@@ -19,11 +19,7 @@ function Projects() {
           <span>commissioned, some are</span>
           <span>just for fun.</span>
         </div>
-        <div
-          className="project"
-          data-scroll
-          data-scroll-offset="30%"
-        >
+        <div className="project" data-scroll data-scroll-offset="30%">
           <div className="info">
             <div className="content">
               <h3 className="content__title">Bragazzi's</h3>
@@ -55,11 +51,7 @@ function Projects() {
             <div className="image__cover"></div>
           </div>
         </div>
-        <div
-          className="project"
-          data-scroll
-          data-scroll-offset="30%"
-        >
+        <div className="project" data-scroll data-scroll-offset="30%">
           <div className="image image--narrow">
             <StaticImage
               src="../images/pokemon-sprites.jpg"
@@ -73,8 +65,8 @@ function Projects() {
               <p className="content__description">
                 Choose two pokemon and see who will come out on top! A fun way
                 for me to learn class-based components in React since I
-                discovered it after the advent of Hooks, Context and functional
-                components.
+                discovered React after the advent of Hooks, Context and
+                functional components.
               </p>
             </div>
             <div className="links">
@@ -95,21 +87,16 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div
-          className="project"
-          data-scroll
-          data-scroll-offset="30%"
-        >
+        <div className="project" data-scroll data-scroll-offset="30%">
           <div className="info">
             <div className="content">
               <h3 className="content__title">Recipe Costings</h3>
               <p className="content__description">
-                A web app for catering businesses to cost and create recipes.
-                Staff can input all the ingredients into a supplier and
-                Ingredient database. With admin and user logins, employees can
-                contribute their own recipe ideas with the ingredients in the
-                stock room and comment on each other's ideas. The recipe will be
-                automatically costed!
+                A web app for catering businesses to create and cost recipes.
+                Staff can input all ingredients and suppliers into a database.
+                Then, with admin and user logins, employees can contribute their
+                own recipe ideas with the ingredients available and comment on
+                each other's ideas. The recipe will be automatically costed!
               </p>
             </div>
             <div className="links">
@@ -134,11 +121,7 @@ function Projects() {
             <div className="image__cover"></div>
           </div>
         </div>
-        <div
-          className="project"
-          data-scroll
-          data-scroll-offset="30%"
-        >
+        <div className="project" data-scroll data-scroll-offset="30%">
           <div className="image image--narrow">
             <StaticImage
               src="../images/marine-venus.jpg"
