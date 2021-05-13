@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <section className="skills" data-scroll-section>
+    <section className="skills" id="skills" data-scroll-section>
       <div className="container">
         <p className="statement">
           I love to design beautiful, intuitive and responsive stuffs on the

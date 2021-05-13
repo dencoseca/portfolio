@@ -3,7 +3,6 @@ import Footer from '../components/Footer'
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 // Components
-import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
@@ -21,7 +20,6 @@ function Index() {
       containerRef={containerRef}
     >
       <main data-scroll-container ref={containerRef}>
-        <Header />
         <Hero />
         <Skills />
         <Projects />
