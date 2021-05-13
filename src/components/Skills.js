@@ -17,8 +17,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1"
+            data-scroll-delay="0.05"
           >
-            REACT
+            React
           </span>
         </div>
         <div className="list__item">
@@ -26,8 +27,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1.2"
+            data-scroll-delay="0.05"
           >
-            GATSBY
+            Gatsby
           </span>
         </div>
         <div className="list__item">
@@ -35,6 +37,7 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1.5"
+            data-scroll-delay="0.05"
           >
             SASS
           </span>
@@ -44,8 +47,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1.4"
+            data-scroll-delay="0.05"
           >
-            NODE
+            Node
           </span>
         </div>
         <div className="list__item">
@@ -53,8 +57,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="2.5"
+            data-scroll-delay="0.05"
           >
-            EXPRESS
+            Express
           </span>
         </div>
         <div className="list__item">
@@ -62,8 +67,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1.3"
+            data-scroll-delay="0.05"
           >
-            MONGODB
+            MongoDB
           </span>
         </div>
         <div className="list__item">
@@ -71,6 +77,7 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="3"
+            data-scroll-delay="0.05"
           >
             GSAP
           </span>
@@ -80,8 +87,9 @@ function Skills() {
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="1.6"
+            data-scroll-delay="0.05"
           >
-            FRAMER MOTION
+            Framer Motion
           </span>
         </div>
       </div>

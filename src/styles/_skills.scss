@@ -1,46 +1,48 @@
 .skills {
   .statement {
-    @include body-font--large;
+    @include font-statement;
     @include section-spacing;
   }
 
   .list {
     @include section-spacing;
+    font-family: $regular;
+    text-transform: uppercase;
+    font-size: 4rem;
 
     .list__item {
-      @include list-font;
       border-bottom: 2px solid #000;
 
       &:nth-of-type(1) {
-        padding-left: 20%;
+        padding-left: 15%;
       }
 
       &:nth-of-type(2) {
-        padding-left: 80%;
+        padding-left: 75%;
       }
 
       &:nth-of-type(3) {
-        padding-left: 60%;
+        padding-left: 55%;
       }
 
       &:nth-of-type(4) {
-        padding-left: 70%;
+        padding-left: 65%;
       }
 
       &:nth-of-type(5) {
-        padding-left: 40%;
+        padding-left: 35%;
       }
 
       &:nth-of-type(6) {
-        padding-left: 25%;
+        padding-left: 20%;
       }
 
       &:nth-of-type(7) {
-        padding-left: 80%;
+        padding-left: 75%;
       }
 
       &:nth-of-type(8) {
-        padding-left: 30%;
+        padding-left: 25%;
       }
 
       span {

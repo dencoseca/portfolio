@@ -1,17 +1,17 @@
 footer {
-  @include body-font--medium;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: end;
   margin-bottom: 3rem;
 
   h2 {
-    @include heading-font--large;
+    @include font-display;
     margin-bottom: 1.3rem;
   }
 
   .links {
     .link {
+      // @include font-statement;
       margin: 0.2rem 0;
       display: block;
     }

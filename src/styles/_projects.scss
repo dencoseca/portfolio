@@ -2,7 +2,7 @@
   @include section-spacing;
 
   .statement {
-    @include body-font--large;
+    @include font-statement;
     @include section-spacing;
     margin-left: 50%;
   }
@@ -17,11 +17,11 @@
       border-bottom: 1px solid #000;
     }
 
-    &:hover {
-      .image {
-        filter: grayscale(0);
-      }
-    }
+    // &:hover {
+    //   .image {
+    //     filter: grayscale(0);
+    //   }
+    // }
 
     .info {
       display: flex;
@@ -31,12 +31,12 @@
 
       .content {
         &__title {
-          @include heading-font--medium;
+          @include font-heading;
           margin-top: 0;
         }
 
         &__description {
-          @include body-font--small;
+          @include font-bodycopy;
         }
       }
 
@@ -55,9 +55,8 @@
     }
 
     .image {
-      position: relative;
-      filter: grayscale(100);
-      transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+      // filter: grayscale(100);
+      // transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 
       &--narrow {
         width: 83%;

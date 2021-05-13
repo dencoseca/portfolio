@@ -1,4 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
   font-family: 'Sk-Modernist-Light';
@@ -45,6 +45,7 @@ $light: 'Sk-Modernist-Light';
 $regular: 'Sk-Modernist-Regular';
 $bold: 'Sk-Modernist-Bold';
 $mono: 'Sk-Modernist-Mono';
+$secondary: 'Inter';
 
 body,
 html {
@@ -61,39 +62,21 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-@mixin heading-font--xlarge {
-  font-size: 8rem;
-  font-weight: 500;
+@mixin font-display {
+  font-size: 5rem;
+  font-family: $bold;
 }
-
-@mixin heading-font--large {
-  font-size: 4.3rem;
-  font-weight: 500;
-}
-
-@mixin heading-font--medium {
+@mixin font-heading {
   font-size: 3rem;
-  font-weight: 500;
+  font-family: $bold;
 }
 
-@mixin body-font--small {
-  font-size: 0.875rem;
-  line-height: 1rem;
-  font-weight: 400;
+@mixin font-bodycopy {
+  font-size: 1rem;
+  font-family: $regular;
 }
 
-@mixin body-font--medium {
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  font-weight: 400;
-}
-
-@mixin body-font--large {
-  font-size: 3.5rem;
-  font-weight: 300;
-}
-
-@mixin list-font {
-  font-size: 4rem;
-  font-weight: 500;
+@mixin font-statement {
+  font-size: 3.25rem;
+  font-family: $light;
 }

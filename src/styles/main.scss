@@ -1,7 +1,10 @@
+@mixin section-spacing {
+  margin: 20rem 0;
+}
+
 // Utilities
 @import 'normalize';
 @import 'locomotive-scroll';
-@import 'layout-mixins';
 
 // Fonts
 @import 'typography';
@@ -15,6 +18,11 @@
 // General Styles
 * {
   box-sizing: border-box;
+}
+
+body,
+html {
+  color: #1d1d1d;
 }
 
 .container {
