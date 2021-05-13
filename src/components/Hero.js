@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 // Animations
 const transition = {
   duration: 1,
-  ease: [0.22, 1, 0.36, 1],
+  ease: [0, 0.55, 0.45, 1],
 }
 
 const sentenceStart = {
@@ -22,7 +22,7 @@ const sentenceStart = {
 const sentenceEnd = {
   animate: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.1,
     },
   },
 }
