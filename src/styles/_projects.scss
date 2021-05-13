@@ -5,6 +5,26 @@
     @include font-statement;
     @include section-spacing;
     margin-left: 50%;
+
+     &.is-inview {
+      span {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    span {
+      display: block;
+      opacity: 0;
+      transform: translateY(3rem);
+      transition: all 1.2s cubic-bezier(0, 0.55, 0.45, 1);
+
+      @for $i from 1 through 5 {
+        &:nth-of-type(#{$i}) {
+          transition-delay: #{$i * 0.1}s;
+        }
+      }
+    }
   }
 
   .project {

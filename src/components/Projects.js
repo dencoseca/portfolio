@@ -8,9 +8,16 @@ function Projects() {
   return (
     <section className="projects" id="projects" data-scroll-section>
       <div className="container">
-        <div className="statement">
-          I love to learn by building real things. Some of these projects are
-          commissioned, some are just for fun.
+        <div
+          className="statement statement--desktop"
+          data-scroll
+          data-scroll-offset="30%"
+        >
+          <span>I love to learn by building</span>
+          <span>real things. Some of these</span>
+          <span>projects are </span>
+          <span>commissioned, some are</span>
+          <span>just for fun.</span>
         </div>
         <div className="project">
           <div className="info">

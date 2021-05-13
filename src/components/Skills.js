@@ -4,11 +4,16 @@ function Skills() {
   return (
     <section className="skills" id="skills" data-scroll-section>
       <div className="container">
-        <p className="statement">
-          I love to design beautiful, intuitive and responsive stuffs on the
-          web. My developer journey has been a fun and brain-recking year of
-          self-tuition after deciding to make the career change into something
-          I'm hugely passionate about.
+        <p
+          className="statement statement--desktop"
+          data-scroll
+          data-scroll-offset="30%"
+        >
+          <span>I love to design beautiful, intuitive and responsive</span>
+          <span>stuffs on the web. My developer journey has been a</span>
+          <span>fun and brain-recking year of self-tuition after</span>
+          <span>deciding to make the career change into something</span>
+          <span>I'm hugely passionate about.</span>
         </p>
       </div>
       <div className="list">
@@ -18,6 +23,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             React
           </span>
@@ -28,6 +34,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1.2"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             Gatsby
           </span>
@@ -38,6 +45,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1.5"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             SASS
           </span>
@@ -48,6 +56,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1.4"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             Node
           </span>
@@ -58,6 +67,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="2.5"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             Express
           </span>
@@ -68,6 +78,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1.3"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             MongoDB
           </span>
@@ -78,6 +89,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="3"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             GSAP
           </span>
@@ -88,6 +100,7 @@ function Skills() {
             data-scroll-direction="horizontal"
             data-scroll-speed="1.6"
             data-scroll-delay="0.05"
+            data-scroll-offset="-30%"
           >
             Framer Motion
           </span>
