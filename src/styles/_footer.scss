@@ -1,20 +1,27 @@
 footer {
+  @include font-statement;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: end;
   padding-bottom: 3rem;
+  margin-top: 10rem;
 
   h2 {
     @include font-display;
-    margin-bottom: 1.3rem;
-    line-height: 1rem;
+    margin-bottom: 0;
   }
 
   .links {
+    margin-bottom: 1rem;
+
     .link {
-      // @include font-statement;
       margin-top: 0.2rem;
       display: block;
     }
+  }
+
+  .copyright {
+    margin-bottom: 1.3rem;
+    text-align: right;
   }
 }

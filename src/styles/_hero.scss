@@ -1,8 +1,8 @@
 .hero {
-  @include section-spacing;
   @include font-display;
 
   .hero__inner {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
