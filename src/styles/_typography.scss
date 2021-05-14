@@ -1,11 +1,11 @@
 // Inter
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 // Sk Modernist
-
 @font-face {
-  font-family: 'Sk-Modernist-Light';
+  font-family: 'Sk Modernist Light';
   src: url('../fonts/Light/sk-modernist-light-webfont.eot');
   src: url('../fonts/Light/sk-modernist-light-webfont.eot?#iefix')
       format('embedded-opentype'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Sk-Modernist-Regular';
+  font-family: 'Sk Modernist Regular';
   src: url('../fonts/Regular/sk-modernist-regular-webfont.eot');
   src: url('../fonts/Regular/sk-modernist-regular-webfont.eot?#iefix')
       format('embedded-opentype'),
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: 'Sk-Modernist-Bold';
+  font-family: 'Sk Modernist Bold';
   src: url('../fonts/Bold/sk-modernist-bold-webfont.eot');
   src: url('../fonts/Bold/sk-modernist-bold-webfont.eot?#iefix')
       format('embedded-opentype'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'Sk-Modernist-Mono';
+  font-family: 'Sk Modernist Mono';
   src: url('../fonts/Mono/sk-modernist-mono-webfont.eot');
   src: url('../fonts/Mono/sk-modernist-mono-webfont.eot?#iefix')
       format('embedded-opentype'),
@@ -46,7 +46,6 @@
 }
 
 // General Sans
-
 @font-face {
   font-family: 'General Sans Extralight';
   src: url('../fonts/general-sans/GeneralSans-Extralight.eot');
@@ -102,7 +101,6 @@
 }
 
 // Schnyder Cond M Light
-
 @font-face {
   font-family: 'Schnyder Cond M Light';
   src: url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.eot');
@@ -114,6 +112,16 @@
       format('truetype'),
     url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.svg#webfont')
       format('svg');
+}
+
+// Cooper Hewitt
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url('../fonts/cooper-hewiit/CooperHewitt-Light.eot');
+  src: url('../fonts/cooper-hewiit/CooperHewitt-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/cooper-hewiit/CooperHewitt-Light.woff') format('woff'),
+    url('../fonts/cooper-hewiit/CooperHewitt-Light.svg#webfont') format('svg');
 }
 
 body,
@@ -143,11 +151,11 @@ html {
 }
 
 @mixin font-bodycopy {
-  font-family: 'General Sans Regular';
+  font-family: 'Sk Modernist Regular';
   font-size: 1rem;
 }
 
 @mixin font-statement {
-  font-family: 'General Sans Light';
-  font-size: 3.25rem;
+  font-family: 'Sk Modernist Light';
+  font-size: 3rem;
 }
