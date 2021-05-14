@@ -1,9 +1,9 @@
-// Utilities
+// 3rd Party Utilities
 @import 'normalize';
 @import 'locomotive-scroll';
-@import 'config';
 
-// Fonts
+// Utilities
+@import 'config';
 @import 'typography';
 
 // Components
@@ -19,7 +19,7 @@
 
 body,
 html {
-  color: #1d1d1d;
+  color: $black;
 }
 
 .container {
@@ -29,5 +29,5 @@ html {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: $black;
 }

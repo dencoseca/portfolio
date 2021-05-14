@@ -32,7 +32,7 @@
     font-weight: 600;
 
     .list__item {
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid $black;
 
       &:nth-of-type(1) {
         padding-left: 13%;

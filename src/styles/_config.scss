@@ -1,3 +1,21 @@
+// Section Spacing
 @mixin section-spacing {
   margin: 15rem 0;
 }
+
+// Media Queries
+@mixin tablet {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+// Colors
+$black: #1d1d1d;
+$white: #fff;
