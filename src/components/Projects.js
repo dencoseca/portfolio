@@ -19,7 +19,7 @@ function Projects() {
           <span>commissioned, some are</span>
           <span>just for fun.</span>
         </div>
-        <div className="project" data-scroll data-scroll-offset="30%">
+        <div className="project" data-scroll data-scroll-offset="20%">
           <div className="info">
             <div className="content">
               <h3 className="content__title">Bragazzi's</h3>
@@ -51,7 +51,7 @@ function Projects() {
             <div className="image__cover"></div>
           </div>
         </div>
-        <div className="project" data-scroll data-scroll-offset="30%">
+        <div className="project" data-scroll data-scroll-offset="20%">
           <div className="image image--narrow">
             <StaticImage
               src="../images/pokemon-sprites.jpg"
@@ -87,7 +87,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="project" data-scroll data-scroll-offset="30%">
+        <div className="project" data-scroll data-scroll-offset="20%">
           <div className="info">
             <div className="content">
               <h3 className="content__title">Recipe Costings</h3>
@@ -121,7 +121,7 @@ function Projects() {
             <div className="image__cover"></div>
           </div>
         </div>
-        <div className="project" data-scroll data-scroll-offset="30%">
+        <div className="project" data-scroll data-scroll-offset="20%">
           <div className="image image--narrow">
             <StaticImage
               src="../images/marine-venus.jpg"

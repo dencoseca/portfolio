@@ -9,6 +9,7 @@ footer {
   h2 {
     @include font-display;
     margin-bottom: 0;
+    position: relative;
     overflow: hidden;
 
     &.is-inview {
@@ -18,6 +19,7 @@ footer {
     }
 
     .line {
+      position: relative;
       transform: translateY(250) skewY(5);
       transition: all 1.5 cubic-bezier(0, 0.55, 0.45, 1);
     }
