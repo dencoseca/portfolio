@@ -1,7 +1,8 @@
 .skills {
   .statement {
+    @include section-spacing;
     @include font-statement;
-    margin-bottom: 15rem;
+    margin-top: 0;
 
     &.is-inview {
       span {

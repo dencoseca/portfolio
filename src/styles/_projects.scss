@@ -1,9 +1,10 @@
 .projects {
+  @include section-spacing;
 
   .statement {
+    @include section-spacing;
     @include font-statement;
-    margin: 15rem 0 15rem 50%;
-    
+    margin-left: 50%;
 
     &.is-inview {
       span {
