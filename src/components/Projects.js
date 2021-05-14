@@ -11,7 +11,7 @@ function Projects() {
         <div
           className="statement statement--desktop"
           data-scroll
-          data-scroll-offset="30%"
+          data-scroll-offset="20%"
         >
           <span>I love to learn by building</span>
           <span>real things. Some of these</span>

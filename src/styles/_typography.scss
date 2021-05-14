@@ -1,103 +1,54 @@
-// Inter
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-// Open Sans
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
 // Sk Modernist
 @font-face {
   font-family: 'Sk Modernist Light';
-  src: url('../fonts/Light/sk-modernist-light-webfont.eot');
-  src: url('../fonts/Light/sk-modernist-light-webfont.eot?#iefix')
+  src: url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.eot');
+  src: url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.eot?#iefix')
       format('embedded-opentype'),
-    url('../fonts/Light/sk-modernist-light-webfont.woff') format('woff'),
-    url('../fonts/Light/sk-modernist-light-webfont.ttf') format('truetype'),
-    url('../fonts/Light/sk-modernist-light-webfont.svg#webfont') format('svg');
+    url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.woff')
+      format('woff'),
+    url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.ttf')
+      format('truetype'),
+    url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.svg#webfont')
+      format('svg');
 }
 
 @font-face {
   font-family: 'Sk Modernist Regular';
-  src: url('../fonts/Regular/sk-modernist-regular-webfont.eot');
-  src: url('../fonts/Regular/sk-modernist-regular-webfont.eot?#iefix')
+  src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot');
+  src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot?#iefix')
       format('embedded-opentype'),
-    url('../fonts/Regular/sk-modernist-regular-webfont.woff') format('woff'),
-    url('../fonts/Regular/sk-modernist-regular-webfont.ttf') format('truetype'),
-    url('../fonts/Regular/sk-modernist-regular-webfont.svg#webfont')
+    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.woff')
+      format('woff'),
+    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.ttf')
+      format('truetype'),
+    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.svg#webfont')
       format('svg');
 }
 
 @font-face {
   font-family: 'Sk Modernist Bold';
-  src: url('../fonts/Bold/sk-modernist-bold-webfont.eot');
-  src: url('../fonts/Bold/sk-modernist-bold-webfont.eot?#iefix')
+  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot');
+  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot?#iefix')
       format('embedded-opentype'),
-    url('../fonts/Bold/sk-modernist-bold-webfont.woff') format('woff'),
-    url('../fonts/Bold/sk-modernist-bold-webfont.ttf') format('truetype'),
-    url('../fonts/Bold/sk-modernist-bold-webfont.svg#webfont') format('svg');
+    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.woff')
+      format('woff'),
+    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.ttf')
+      format('truetype'),
+    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.svg#webfont')
+      format('svg');
 }
 
 @font-face {
   font-family: 'Sk Modernist Mono';
-  src: url('../fonts/Mono/sk-modernist-mono-webfont.eot');
-  src: url('../fonts/Mono/sk-modernist-mono-webfont.eot?#iefix')
+  src: url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.eot');
+  src: url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.eot?#iefix')
       format('embedded-opentype'),
-    url('../fonts/Mono/sk-modernist-mono-webfont.woff') format('woff'),
-    url('../fonts/Mono/sk-modernist-mono-webfont.ttf') format('truetype'),
-    url('../fonts/Mono/sk-modernist-mono-webfont.svg#webfont') format('svg');
-}
-
-// General Sans
-@font-face {
-  font-family: 'General Sans Extralight';
-  src: url('../fonts/general-sans/GeneralSans-Extralight.eot');
-  src: url('../fonts/general-sans/GeneralSans-Extralight.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Extralight.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Extralight.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'General Sans Light';
-  src: url('../fonts/general-sans/GeneralSans-Light.eot');
-  src: url('../fonts/general-sans/GeneralSans-Light.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Light.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'General Sans Regular';
-  src: url('../fonts/general-sans/GeneralSans-Regular.eot');
-  src: url('../fonts/general-sans/GeneralSans-Regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Regular.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'General Sans Medium';
-  src: url('../fonts/general-sans/GeneralSans-Medium.eot');
-  src: url('../fonts/general-sans/GeneralSans-Medium.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Medium.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'General Sans Semibold';
-  src: url('../fonts/general-sans/GeneralSans-Semibold.eot');
-  src: url('../fonts/general-sans/GeneralSans-Semibold.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Semibold.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Semibold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'General Sans Bold';
-  src: url('../fonts/general-sans/GeneralSans-Bold.eot');
-  src: url('../fonts/general-sans/GeneralSans-Bold.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/general-sans/GeneralSans-Bold.woff') format('woff'),
-    url('../fonts/general-sans/GeneralSans-Bold.ttf') format('truetype');
+    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.woff')
+      format('woff'),
+    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.ttf')
+      format('truetype'),
+    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.svg#webfont')
+      format('svg');
 }
 
 // Schnyder Cond M Light
@@ -112,16 +63,6 @@
       format('truetype'),
     url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.svg#webfont')
       format('svg');
-}
-
-// Cooper Hewitt
-@font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('../fonts/cooper-hewiit/CooperHewitt-Light.eot');
-  src: url('../fonts/cooper-hewiit/CooperHewitt-Light.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/cooper-hewiit/CooperHewitt-Light.woff') format('woff'),
-    url('../fonts/cooper-hewiit/CooperHewitt-Light.svg#webfont') format('svg');
 }
 
 body,
@@ -142,7 +83,7 @@ html {
 @mixin font-display {
   font-family: 'Schnyder Cond M Light';
   text-transform: uppercase;
-  font-size: 8rem;
+  font-size: 10rem;
 }
 @mixin font-heading {
   font-family: 'Schnyder Cond M Light';

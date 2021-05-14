@@ -1,5 +1,6 @@
 .hero {
   @include font-display;
+  margin: 0 5rem;
 
   .hero__inner {
     height: 100vh;
