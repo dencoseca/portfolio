@@ -1,4 +1,8 @@
+// Inter
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Sk Modernist
 
 @font-face {
   font-family: 'Sk-Modernist-Light';
@@ -41,15 +45,80 @@
     url('../fonts/Mono/sk-modernist-mono-webfont.svg#webfont') format('svg');
 }
 
-$light: 'Sk-Modernist-Light';
-$regular: 'Sk-Modernist-Regular';
-$bold: 'Sk-Modernist-Bold';
-$mono: 'Sk-Modernist-Mono';
-$secondary: 'Inter';
+// General Sans
+
+@font-face {
+  font-family: 'General Sans Extralight';
+  src: url('../fonts/general-sans/GeneralSans-Extralight.eot');
+  src: url('../fonts/general-sans/GeneralSans-Extralight.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Extralight.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Extralight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans Light';
+  src: url('../fonts/general-sans/GeneralSans-Light.eot');
+  src: url('../fonts/general-sans/GeneralSans-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Light.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans Regular';
+  src: url('../fonts/general-sans/GeneralSans-Regular.eot');
+  src: url('../fonts/general-sans/GeneralSans-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Regular.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans Medium';
+  src: url('../fonts/general-sans/GeneralSans-Medium.eot');
+  src: url('../fonts/general-sans/GeneralSans-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Medium.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans Semibold';
+  src: url('../fonts/general-sans/GeneralSans-Semibold.eot');
+  src: url('../fonts/general-sans/GeneralSans-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Semibold.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans Bold';
+  src: url('../fonts/general-sans/GeneralSans-Bold.eot');
+  src: url('../fonts/general-sans/GeneralSans-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/general-sans/GeneralSans-Bold.woff') format('woff'),
+    url('../fonts/general-sans/GeneralSans-Bold.ttf') format('truetype');
+}
+
+// Schnyder Cond M Light
+
+@font-face {
+  font-family: 'Schnyder Cond M Light';
+  src: url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.eot');
+  src: url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.woff')
+      format('woff'),
+    url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.ttf')
+      format('truetype'),
+    url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.svg#webfont')
+      format('svg');
+}
 
 body,
 html {
-  font-family: $regular;
+  font-family: 'Inter';
   /* Adjust font size */
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -63,20 +132,22 @@ html {
 }
 
 @mixin font-display {
-  font-size: 5rem;
-  font-family: $bold;
+  font-family: 'Schnyder Cond M Light';
+  text-transform: uppercase;
+  font-size: 8rem;
 }
 @mixin font-heading {
-  font-size: 3rem;
-  font-family: $bold;
+  font-family: 'Schnyder Cond M Light';
+  font-size: 4rem;
+  text-transform: uppercase;
 }
 
 @mixin font-bodycopy {
+  font-family: 'General Sans Regular';
   font-size: 1rem;
-  font-family: $regular;
 }
 
 @mixin font-statement {
+  font-family: 'General Sans Light';
   font-size: 3.25rem;
-  font-family: $light;
 }

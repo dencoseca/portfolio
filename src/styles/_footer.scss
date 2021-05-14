@@ -2,17 +2,18 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: end;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 
   h2 {
     @include font-display;
     margin-bottom: 1.3rem;
+    line-height: 1rem;
   }
 
   .links {
     .link {
       // @include font-statement;
-      margin: 0.2rem 0;
+      margin-top: 0.2rem;
       display: block;
     }
   }

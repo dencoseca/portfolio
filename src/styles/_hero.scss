@@ -1,33 +1,23 @@
 .hero {
+  @include section-spacing;
   @include font-display;
-  margin: 0 auto;
 
-  .sentence {
-    padding-top: 15rem;
-  }
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  .sentence--start {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    text-align: right;
-    padding-right: 1.5rem;
-    box-sizing: border-box;
+    .title {
+      &.first {
+        text-align: left;
+      }
 
-    span {
-      display: inline-block;
-    }
-  }
+      &.second {
+        text-align: center;
+      }
 
-  .sentence--end {
-    display: inline-block;
-    width: 70%;
-
-    .line {
-      margin-top: 1.5rem;
-
-      &:first-of-type {
-        margin-top: 0;
+      &.third {
+        text-align: right;
       }
     }
   }
