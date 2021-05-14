@@ -8,6 +8,10 @@
     flex-direction: column;
     justify-content: center;
 
+    .line {
+      overflow: hidden;
+    }
+
     .title {
       &.first {
         text-align: left;
@@ -19,6 +23,10 @@
 
       &.third {
         text-align: right;
+      }
+
+      span {
+        display: inline-block;
       }
     }
   }

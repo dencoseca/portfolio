@@ -4,7 +4,10 @@ function Footer() {
   return (
     <div className="container">
       <footer data-scroll-section>
-        <h2>Get in touch</h2>
+        <h2 data-scroll data-scroll-offset="20%">
+          <div className="line">GET IN</div>
+          <div className="line">TOUCH</div>
+        </h2>
         <div className="links">
           <a href="mailto:leon.brown71@icloud.com" className="link">
             EMAIL

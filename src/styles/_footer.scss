@@ -9,6 +9,18 @@ footer {
   h2 {
     @include font-display;
     margin-bottom: 0;
+    overflow: hidden;
+
+    &.is-inview {
+      .line {
+        transform: translateY(0) skewY(0);
+      }
+    }
+
+    .line {
+      transform: translateY(250) skewY(5);
+      transition: all 1.5 cubic-bezier(0, 0.55, 0.45, 1);
+    }
   }
 
   .links {
