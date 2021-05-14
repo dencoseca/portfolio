@@ -38,7 +38,7 @@ function Hero() {
       lines.forEach(line => {
         line.style.overflow = 'visible'
       })
-    }, 1900)
+    }, 1500)
   }, [])
 
   return (
