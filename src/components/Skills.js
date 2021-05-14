@@ -7,7 +7,7 @@ function Skills() {
         <p
           className="statement statement--desktop"
           data-scroll
-          data-scroll-offset="20%"
+          data-scroll-offset="25%"
         >
           <span>I love to design beautiful, intuitive and responsive</span>
           <span>stuffs on the web. My developer journey has been a</span>
