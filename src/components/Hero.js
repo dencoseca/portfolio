@@ -44,6 +44,14 @@ function Hero() {
   return (
     <AnimatePresence>
       <section className="hero" id="hero" data-scroll-section>
+        <div className="scroll-down scroll-down--bottom-left">
+          <span className="arrow-down"></span>
+          <span className="scroll-title">Scroll down</span>
+        </div>
+        <div className="scroll-down scroll-down--top-right">
+          <span className="arrow-down"></span>
+          <span className="scroll-title">Scroll down</span>
+        </div>
         <motion.div
           className="hero__inner"
           id="sticky-target"
