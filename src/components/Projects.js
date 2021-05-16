@@ -47,7 +47,10 @@ function Projects() {
             </div>
           </div>
           <div className="image">
-            <StaticImage src="../images/bragazzis.jpg" alt="bragazzi's cafe" />
+            <StaticImage
+              src="../images/bragazzis.jpg"
+              alt="a busy italian cafe"
+            />
             <div className="image__cover"></div>
           </div>
         </div>
@@ -55,7 +58,7 @@ function Projects() {
           <div className="image image--narrow">
             <StaticImage
               src="../images/pokemon-sprites.jpg"
-              alt="bragazzi's cafe"
+              alt="generation one pokemon sprites"
             />
             <div className="image__cover"></div>
           </div>
@@ -117,7 +120,10 @@ function Projects() {
             </div>
           </div>
           <div className="image">
-            <StaticImage src="../images/cherry-pie.jpg" alt="bragazzi's cafe" />
+            <StaticImage
+              src="../images/cherry-pie.jpg"
+              alt="a delicious cherry pie"
+            />
             <div className="image__cover"></div>
           </div>
         </div>
@@ -125,7 +131,7 @@ function Projects() {
           <div className="image image--narrow">
             <StaticImage
               src="../images/marine-venus.jpg"
-              alt="bragazzi's cafe"
+              alt="a catamaran sailing in the carribean"
             />
             <div className="image__cover"></div>
           </div>
@@ -156,6 +162,42 @@ function Projects() {
                 {githubSVG}
               </a>
             </div>
+          </div>
+        </div>
+        <div className="project" data-scroll data-scroll-offset="20%">
+          <div className="info">
+            <div className="content">
+              <h3 className="content__title">Alexa Christou Photography</h3>
+              <p className="content__description">
+                Alexa documents her overland travels with stunning photography.
+                She needed a site to curate and display her beautiful pictures.
+                I took this project on to learn how to create custom themes for
+                wordpress and get a feel for PHP.
+              </p>
+            </div>
+            <div className="links">
+              <a
+                href="http://www.alexachristouphotography.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {arrowSVG}
+              </a>
+              <a
+                href="https://github.com/dencoSeca/acp-wordpress"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {githubSVG}
+              </a>
+            </div>
+          </div>
+          <div className="image image--narrow">
+            <StaticImage
+              src="../images/morocco.jpg"
+              alt="a mountain range in morocco"
+            />
+            <div className="image__cover"></div>
           </div>
         </div>
       </div>
