@@ -1,11 +1,15 @@
 footer {
-  @include section-spacing;
   @include font-statement;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: end;
   padding-bottom: 3rem;
   margin-bottom: 0;
+  margin-top: 15rem;
+
+  @include smallTablet {
+    margin-top: 10rem;
+  }
 
   h2 {
     @include font-display;

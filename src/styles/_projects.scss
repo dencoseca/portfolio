@@ -1,10 +1,17 @@
 .projects {
-  @include section-spacing;
+  margin: 15rem 0;
+
+  @include smallTablet {
+    margin: 10rem 0;
+  }
 
   .statement {
-    @include section-spacing;
     @include font-statement;
-    margin-left: 50%;
+    margin: 15rem 0 15rem 50%;
+
+    @include smallTablet {
+      margin: 10rem 0 10rem 50%;
+    }
 
     &.is-inview {
       span {
@@ -28,10 +35,13 @@
   }
 
   .project {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 2rem 0;
     position: relative;
+
+    @include smallTablet {
+      flex-direction: column;
+    }
 
     &:before {
       position: absolute;
@@ -73,11 +83,36 @@
       }
     }
 
+    &__inner {
+      width: 50%;
+
+      @include smallTablet {
+        width: 100%;
+      }
+
+      &--image {
+        @include smallTablet {
+          order: 1;
+        }
+      }
+
+      &--info {
+        @include smallTablet {
+          order: 2;
+        }
+      }
+    }
+
     .info {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 65%;
+
+      @include smallTablet {
+        width: 100%;
+        margin-top: 3rem;
+      }
 
       .content {
         &__title {
@@ -109,6 +144,10 @@
 
       &--narrow {
         width: 83%;
+
+        @include smallTablet {
+          width: 100%;
+        }
       }
 
       &__cover {

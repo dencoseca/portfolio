@@ -1,8 +1,3 @@
-// Section Spacing
-@mixin section-spacing {
-  margin: 15rem 0;
-}
-
 // Media Queries
 @mixin smallDesktop {
   @media (max-width: 1440px) {
@@ -31,3 +26,4 @@
 // Colors
 $black: #1d1d1d;
 $white: #fff;
+

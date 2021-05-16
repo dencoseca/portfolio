@@ -1,11 +1,13 @@
 .skills {
   .statement {
-    @include section-spacing;
     @include font-statement;
     margin-top: 0;
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15rem auto;
+
+    @include smallTablet {
+      margin: 10rem auto;
+    }
 
     &.is-inview {
       span {
