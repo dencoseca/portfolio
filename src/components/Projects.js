@@ -24,9 +24,16 @@ function Projects() {
             <div className="content">
               <h3 className="content__title">Bragazzi's</h3>
               <p className="content__description">
-                A marketing website for Bragazzi's cafe. Built with Gatsby to
-                take advantage of their image optimization and make use of the
-                client's professional photography.
+                Bragazzi's is a traditional Italian cafe, delicatessen and shop.
+                It's deeply set in its community and has a very particular feel
+                and atmosphere. It needed a marketing website to root their
+                online presence and show their personality. It needed to update
+                business information based on Google Business Data so the client
+                could keep using the interface he was familiar with. I wanted
+                the website to get the most out of the beautiful photography we
+                had available. Gatsby's Static Image component and its blazing
+                fast serving of static sites were key in delivering this and,
+                coupled with my love of React, made it an obvious choice.
               </p>
             </div>
             <div className="links">
@@ -66,10 +73,12 @@ function Projects() {
             <div className="content">
               <h3 className="content__title">Pokemon Type Matcher</h3>
               <p className="content__description">
-                Choose two pokemon and see who will come out on top! A fun way
-                for me to learn class-based components in React since I
-                discovered React after the advent of Hooks, Context and
-                functional components.
+                A fun little desktop React app that lets you compare the types
+                of two Pokemon and see which one can play a super effective
+                move! Because my emotional growth stopped in 1998. This is
+                something I wish I had back in the day! I find developing in
+                React to be loads of fun and I plan to refactor this project to
+                make use of React hooks.
               </p>
             </div>
             <div className="links">
@@ -95,11 +104,15 @@ function Projects() {
             <div className="content">
               <h3 className="content__title">Recipe Costings</h3>
               <p className="content__description">
-                A web app for catering businesses to create and cost recipes.
-                Staff can input all ingredients and suppliers into a database.
-                Then, with admin and user logins, employees can contribute their
-                own recipe ideas with the ingredients available and comment on
-                each other's ideas. The recipe will be automatically costed!
+                Recipe Costings is an app that, wait for it... costs recipes!
+                Intended as an internal app for catering / service companies to
+                get their staff involved in the creative process. Employees can
+                create recipes and collaborate with each other using a database
+                of existing stock items. Built on an ExpressJS framework using
+                mongoose for the database. This was a great way for me to learn
+                RESTful routing techniques. With its goal being purely
+                functional I have spent almost no time on custom styling,
+                leaving it entirely up to bootstrap.
               </p>
             </div>
             <div className="links">
@@ -139,11 +152,14 @@ function Projects() {
             <div className="content">
               <h3 className="content__title">Marine Venus</h3>
               <p className="content__description">
-                A marketing website for the charter yacht Marine Venus based out
-                of St Vincent and the Grenadines in the carribean. The owner
-                Mark wanted to have a larger presence than was available on the
-                charter website. The site allows for more information about
-                Marine Venus but links back to the charter company for hire.
+                Marine Venus is a charter yacht based in the Caribbean. The site
+                is intended to be a landing page / yacht profile for potential
+                holiday goers, to get a taste of what a sailing trip might
+                entail. They are then redirected, at multiple points, to the
+                charter company that hires out the yacht. This website is
+                ultimately intended to direct the viewer away from itself and
+                towards booking facilities. A single page layout was the most
+                appropriate way to achieve this.
               </p>
             </div>
             <div className="links">
@@ -167,12 +183,63 @@ function Projects() {
         <div className="project" data-scroll data-scroll-offset="20%">
           <div className="info">
             <div className="content">
+              <h3 className="content__title">Workflow</h3>
+              <p className="content__description">
+                Something I use a lot are task management apps. I decided to
+                make a basic clone of one of my favourites, Notion. In doing
+                this I got to get to grips with connecting a front end with a
+                backend api. Building both from scratch and managing data
+                validation and pending server requests really helped me see the
+                kinds of design decisions that are driven by the technologies in
+                use. How and where state is stored, how much of my data to call
+                up before it's needed to improve loading times, and a million
+                other decisions! My other goal was to break away from using
+                bootstrap for every project. Workflow's CSS framework is built
+                upon Bulma.
+              </p>
+            </div>
+            <div className="links">
+              <a
+                href="https://workflow.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {arrowSVG}
+              </a>
+              <a
+                href="https://github.com/dencoSeca/workflow"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {githubSVG}
+              </a>
+            </div>
+          </div>
+          <div className="image image--narrow">
+            <StaticImage src="../images/workflow.jpg" alt="a task checklist" />
+            <div className="image__cover"></div>
+          </div>
+        </div>
+        <div className="project" data-scroll data-scroll-offset="20%">
+          <div className="image image--narrow">
+            <StaticImage
+              src="../images/morocco.jpg"
+              alt="a mountain range in morocco"
+            />
+            <div className="image__cover"></div>
+          </div>
+          <div className="info">
+            <div className="content">
               <h3 className="content__title">Alexa Christou Photography</h3>
               <p className="content__description">
-                Alexa documents her overland travels with stunning photography.
-                She needed a site to curate and display her beautiful pictures.
-                I took this project on to learn how to create custom themes for
-                wordpress and get a feel for PHP.
+                Alexa documents her overland travels with beautiful photographs.
+                She needed somewhere to showcase the pictures she takes, for her
+                friends, family and anyone else interested in travel and
+                exploration. The focus here is on simplicity, and giving the
+                full stage to the stunning landscapes she captures. Creating a
+                custom WordPress website enabled me to have the control I wanted
+                over the structure and styling while allowing Alexa to create
+                galleries and manage image uploads independently.
               </p>
             </div>
             <div className="links">
@@ -191,13 +258,6 @@ function Projects() {
                 {githubSVG}
               </a>
             </div>
-          </div>
-          <div className="image image--narrow">
-            <StaticImage
-              src="../images/morocco.jpg"
-              alt="a mountain range in morocco"
-            />
-            <div className="image__cover"></div>
           </div>
         </div>
       </div>
