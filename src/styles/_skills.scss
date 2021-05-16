@@ -3,6 +3,9 @@
     @include section-spacing;
     @include font-statement;
     margin-top: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 
     &.is-inview {
       span {
@@ -30,6 +33,14 @@
     text-transform: uppercase;
     font-size: 5rem;
     font-weight: 600;
+
+    @include smallDesktop {
+      font-size: 4rem;
+    }
+
+    @include smallTablet {
+      font-size: 3rem;
+    }
 
     .list__item {
       border-bottom: 1px solid $black;

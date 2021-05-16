@@ -4,8 +4,20 @@
 }
 
 // Media Queries
-@mixin tablet {
+@mixin smallDesktop {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin largeTablet {
   @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin smallTablet {
+  @media (max-width: 1023px) {
     @content;
   }
 }

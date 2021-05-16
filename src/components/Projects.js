@@ -111,7 +111,7 @@ function Projects() {
                 create recipes and collaborate with each other using a database
                 of existing stock items. Built with Express using EJS to serve
                 the HTML with the data stored on MongoDB. This was a great way
-                for me to learn RESTful routing techniques. 
+                for me to learn RESTful routing techniques.
               </p>
             </div>
             <div className="links">
@@ -152,13 +152,13 @@ function Projects() {
               <h3 className="content__title">Marine Venus</h3>
               <p className="content__description">
                 Marine Venus is a charter yacht based in the Caribbean. The site
-                is intended to be a landing page / profile for potential
-                holiday goers, to get a taste of what a sailing trip might
-                entail. They are then redirected, at multiple points, to the
-                charter company that hires out the yacht. This website is
-                ultimately intended to direct the viewer away from itself and
-                towards booking facilities. A single page layout was the most
-                appropriate way to achieve this.
+                is intended to be a landing page / profile for potential holiday
+                goers, to get a taste of what a sailing trip might entail. They
+                are then redirected, at multiple points, to the charter company
+                that hires out the yacht. This website is ultimately intended to
+                direct the viewer away from itself and towards booking
+                facilities. A single page layout was the most appropriate way to
+                achieve this.
               </p>
             </div>
             <div className="links">

@@ -84,19 +84,49 @@ html {
   font-family: 'Schnyder Cond M Light';
   text-transform: uppercase;
   font-size: 10rem;
-}
-@mixin font-heading {
-  font-family: 'Schnyder Cond M Light';
-  font-size: 4rem;
-  text-transform: uppercase;
-}
 
-@mixin font-bodycopy {
-  font-family: 'Sk Modernist Regular';
-  font-size: 1rem;
+  @include smallDesktop {
+    font-size: 8rem;
+  }
+
+  @include largeTablet {
+    font-size: 6rem;
+  }
+
+  @include smallTablet {
+    font-size: 4rem;
+  }
 }
 
 @mixin font-statement {
   font-family: 'Sk Modernist Light';
   font-size: 3rem;
+
+  @include smallDesktop {
+    font-size: 2.5rem;
+  }
+
+  @include smallTablet {
+    font-size: 1.5rem;
+  }
+}
+
+@mixin font-heading {
+  font-family: 'Schnyder Cond M Light';
+  font-size: 5rem;
+  text-transform: uppercase;
+
+  @include smallDesktop {
+    font-size: 4rem;
+  }
+
+  @include largeTablet {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@mixin font-bodycopy {
+  font-family: 'Sk Modernist Regular';
+  font-size: 1rem;
 }
