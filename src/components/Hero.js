@@ -30,6 +30,21 @@ const heroLine = {
   },
 }
 
+const scrollArrow = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ...transition,
+      delay: 1,
+    },
+  },
+}
+
 function Hero() {
   useEffect(() => {
     const lines = document.querySelectorAll('.hero__inner .line')
@@ -44,14 +59,28 @@ function Hero() {
   return (
     <AnimatePresence>
       <section className="hero" id="hero" data-scroll-section>
-        <div className="scroll-down scroll-down--bottom-left">
+        <motion.div
+          className="scroll-down scroll-down--bottom-left"
+          initial="initial"
+          animate="animate"
+          variants={scrollArrow}
+          data-scroll
+          data-scroll-speed="4"
+          data-scroll-position="top"
+        >
           <span className="arrow-down"></span>
-          <span className="scroll-title">Scroll down</span>
-        </div>
-        <div className="scroll-down scroll-down--top-right">
+        </motion.div>
+        <motion.div
+          className="scroll-down scroll-down--top-right"
+          initial="initial"
+          animate="animate"
+          variants={scrollArrow}
+          data-scroll
+          data-scroll-speed="4"
+          data-scroll-position="top"
+        >
           <span className="arrow-down"></span>
-          <span className="scroll-title">Scroll down</span>
-        </div>
+        </motion.div>
         <motion.div
           className="hero__inner"
           id="sticky-target"
