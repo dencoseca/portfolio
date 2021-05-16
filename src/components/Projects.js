@@ -77,8 +77,9 @@ function Projects() {
                 of two Pokemon and see which one can play a super effective
                 move! Because my emotional growth stopped in 1998. This is
                 something I wish I had back in the day! I find developing in
-                React to be loads of fun and I plan to refactor this project to
-                make use of React hooks.
+                React to be loads of fun, I built this app to learn how to use
+                class components since I learned React after the advent of
+                functional components and hooks.
               </p>
             </div>
             <div className="links">
@@ -108,11 +109,9 @@ function Projects() {
                 Intended as an internal app for catering / service companies to
                 get their staff involved in the creative process. Employees can
                 create recipes and collaborate with each other using a database
-                of existing stock items. Built on an ExpressJS framework using
-                mongoose for the database. This was a great way for me to learn
-                RESTful routing techniques. With its goal being purely
-                functional I have spent almost no time on custom styling,
-                leaving it entirely up to bootstrap.
+                of existing stock items. Built with Express using EJS to serve
+                the HTML with the data stored on MongoDB. This was a great way
+                for me to learn RESTful routing techniques. 
               </p>
             </div>
             <div className="links">
@@ -153,7 +152,7 @@ function Projects() {
               <h3 className="content__title">Marine Venus</h3>
               <p className="content__description">
                 Marine Venus is a charter yacht based in the Caribbean. The site
-                is intended to be a landing page / yacht profile for potential
+                is intended to be a landing page / profile for potential
                 holiday goers, to get a taste of what a sailing trip might
                 entail. They are then redirected, at multiple points, to the
                 charter company that hires out the yacht. This website is
@@ -188,14 +187,13 @@ function Projects() {
                 Something I use a lot are task management apps. I decided to
                 make a basic clone of one of my favourites, Notion. In doing
                 this I got to get to grips with connecting a front end with a
-                backend api. Building both from scratch and managing data
+                backend API. Building both from scratch and managing data
                 validation and pending server requests really helped me see the
                 kinds of design decisions that are driven by the technologies in
                 use. How and where state is stored, how much of my data to call
                 up before it's needed to improve loading times, and a million
                 other decisions! My other goal was to break away from using
-                bootstrap for every project. Workflow's CSS framework is built
-                upon Bulma.
+                bootstrap for every project. Workflow's CSS is built with Bulma.
               </p>
             </div>
             <div className="links">
@@ -215,7 +213,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className="image image--narrow">
+          <div className="image">
             <StaticImage src="../images/workflow.jpg" alt="a task checklist" />
             <div className="image__cover"></div>
           </div>
@@ -223,7 +221,7 @@ function Projects() {
         <div className="project" data-scroll data-scroll-offset="20%">
           <div className="image image--narrow">
             <StaticImage
-              src="../images/morocco.jpg"
+              src="../images/purple-house.jpg"
               alt="a mountain range in morocco"
             />
             <div className="image__cover"></div>
