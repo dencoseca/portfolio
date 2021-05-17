@@ -14,16 +14,24 @@ function Index() {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
+        smartphone: {
+          smooth: true,
+        },
+        tablet: {
+          smooth: true,
+        },
         scrollFromAnywhere: true,
         multiplier: 0.75,
       }}
       containerRef={containerRef}
     >
       <main data-scroll-container ref={containerRef}>
-        <Hero />
-        <Skills />
-        <Projects />
-        <Footer />
+        <>
+          <Hero />
+          <Skills />
+          <Projects />
+          <Footer />
+        </>
       </main>
     </LocomotiveScrollProvider>
   )

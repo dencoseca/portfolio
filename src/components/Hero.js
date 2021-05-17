@@ -80,14 +80,14 @@ function Hero() {
           <span className="arrow-down"></span>
         </motion.div>
         <motion.div
-          className="hero__inner"
+          className="hero__inner hero__inner--desktop"
           id="sticky-target"
           initial="initial"
           animate="animate"
           variants={heroInner}
         >
           <div className="line">
-            <motion.div className="title first" variants={heroLine}>
+            <motion.div className="title top" variants={heroLine}>
               <span
                 data-scroll
                 data-scroll-position="top"
@@ -155,7 +155,7 @@ function Hero() {
             </motion.div>
           </div>
           <div className="line">
-            <motion.div className="title second" variants={heroLine}>
+            <motion.div className="title middle" variants={heroLine}>
               <span
                 data-scroll
                 data-scroll-position="top"
@@ -279,7 +279,7 @@ function Hero() {
             </motion.div>
           </div>
           <div className="line">
-            <motion.div className="title third" variants={heroLine}>
+            <motion.div className="title bottom" variants={heroLine}>
               <span
                 data-scroll
                 data-scroll-position="top"
@@ -296,6 +296,270 @@ function Hero() {
               >
                 n
               </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                t
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                h
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="4"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                u
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                k.
+              </span>
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          className="hero__inner hero__inner--tablet"
+          id="sticky-target"
+          initial="initial"
+          animate="animate"
+          variants={heroInner}
+        >
+          <div className="line">
+            <motion.div className="title top" variants={heroLine}>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                H
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                i,
+              </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="4"
+                data-scroll-delay="0.05"
+              >
+                I'
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                m
+              </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                L
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                o
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                n,
+              </span>
+            </motion.div>
+          </div>
+          <div className="line">
+            <motion.div className="title middle" variants={heroLine}>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                a
+              </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                d
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="4"
+                data-scroll-delay="0.05"
+              >
+                v
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                l
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                o
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                p
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="4"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                r
+              </span>
+            </motion.div>
+          </div>
+          <div className="line">
+            <motion.div className="title bottom" variants={heroLine}>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                b
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="2"
+                data-scroll-delay="0.05"
+              >
+                a
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                s
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                e
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="4"
+                data-scroll-delay="0.05"
+              >
+                d
+              </span>{' '}
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="3"
+                data-scroll-delay="0.05"
+              >
+                i
+              </span>
+              <span
+                data-scroll
+                data-scroll-position="top"
+                data-scroll-speed="1"
+                data-scroll-delay="0.05"
+              >
+                n
+              </span>
+            </motion.div>
+          </div>
+          <div className="line">
+            <motion.div className="title bottom" variants={heroLine}>
               <span
                 data-scroll
                 data-scroll-position="top"
