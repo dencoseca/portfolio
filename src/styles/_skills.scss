@@ -9,6 +9,10 @@
       margin: 10rem auto;
     }
 
+    @include phone {
+      margin: 5rem auto;
+    }
+
     &.is-inview {
       span {
         opacity: 1;
@@ -42,6 +46,10 @@
 
     @include smallTablet {
       font-size: 3rem;
+    }
+
+    @include phone {
+      font-size: 2rem;
     }
 
     .list__item {
