@@ -13,6 +13,10 @@
       margin: 10rem 0 10rem 50%;
     }
 
+    @include phone {
+      margin: 10rem 0 10rem;
+    }
+
     &.is-inview {
       span {
         opacity: 1;
