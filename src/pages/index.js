@@ -22,7 +22,7 @@ function Index() {
         },
         scrollFromAnywhere: true,
         multiplier: 0.75,
-        touchMultiplier: 2,
+        touchMultiplier: 3,
       }}
       containerRef={containerRef}
     >

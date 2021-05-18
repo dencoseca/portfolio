@@ -73,7 +73,7 @@ function Hero() {
           animate="animate"
           variants={scrollPrompt}
           data-scroll
-          data-scroll-speed="4"
+          data-scroll-speed="2"
           data-scroll-position="top"
         >
           <motion.span
@@ -95,7 +95,7 @@ function Hero() {
           animate="animate"
           variants={scrollPrompt}
           data-scroll
-          data-scroll-speed="4"
+          data-scroll-speed="2"
           data-scroll-position="top"
         >
           <motion.span
@@ -123,66 +123,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                H
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
                 data-scroll-speed="2"
                 data-scroll-delay="0.05"
               >
-                i,
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                I'
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-3"
-                data-scroll-delay="0.05"
-              >
-                m
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                L
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-3"
-                data-scroll-delay="0.05"
-              >
-                o
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                n,
+                Hi, I'm Leon,
               </span>
             </motion.div>
           </div>
@@ -191,122 +135,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                a
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                d
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                v
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-2"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                l
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
                 data-scroll-speed="1"
                 data-scroll-delay="0.05"
               >
-                o
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-2"
-                data-scroll-delay="0.05"
-              >
-                p
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                r
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-3"
-                data-scroll-delay="0.05"
-              >
-                b
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                a
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                s
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                d
+                a developer based
               </span>
             </motion.div>
           </div>
@@ -315,58 +147,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-0.5"
                 data-scroll-delay="0.05"
               >
-                i
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                n
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                t
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                h
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                u
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                k.
+                in the UK.
               </span>
             </motion.div>
           </div>
@@ -383,66 +167,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                H
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-2"
-                data-scroll-delay="0.05"
-              >
-                i,
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                I'
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
                 data-scroll-speed="3"
                 data-scroll-delay="0.05"
               >
-                m
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                L
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                o
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                n,
+                Hi, I'm Leon,
               </span>
             </motion.div>
           </div>
@@ -451,82 +179,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="-2"
-                data-scroll-delay="0.05"
-              >
-                a
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                d
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-4"
-                data-scroll-delay="0.05"
-              >
-                v
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
                 data-scroll-speed="2"
                 data-scroll-delay="0.05"
               >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                l
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                o
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                p
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                r
+                a developer
               </span>
             </motion.div>
           </div>
@@ -535,58 +191,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="-3"
-                data-scroll-delay="0.05"
-              >
-                b
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                a
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
-              >
-                s
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                d
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-3"
-                data-scroll-delay="0.05"
-              >
-                i
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
                 data-scroll-speed="1"
                 data-scroll-delay="0.05"
               >
-                n
+                based in
               </span>
             </motion.div>
           </div>
@@ -595,42 +203,10 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="-2"
+                data-scroll-speed="-0.5"
                 data-scroll-delay="0.05"
               >
-                t
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
-              >
-                h
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="4"
-                data-scroll-delay="0.05"
-              >
-                e
-              </span>{' '}
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-1"
-                data-scroll-delay="0.05"
-              >
-                u
-              </span>
-              <span
-                data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
-              >
-                k.
+                the UK.
               </span>
             </motion.div>
           </div>
