@@ -18,7 +18,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#1d1d1d`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        icon: `${__dirname}/src/images/icon.png`,
         icon_options: {
           purpose: `any maskable`,
         },
