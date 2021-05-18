@@ -30,15 +30,25 @@ const heroLine = {
   },
 }
 
-const scrollArrow = {
+const scrollPrompt = {
+  animate: {
+    transition: {
+      delayChildren: 2,
+      staggerChildren: 0.2,
+    },
+  },
+}
+
+const scrollPromptLine = {
   initial: {
     opacity: 0,
+    y: -100,
   },
   animate: {
     opacity: 1,
+    y: 0,
     transition: {
       ...transition,
-      delay: 1,
     },
   },
 }
@@ -58,26 +68,48 @@ function Hero() {
     <AnimatePresence>
       <section className="hero" id="hero" data-scroll-section>
         <motion.div
-          className="scroll-down scroll-down--bottom-left"
+          className="scroll-prompt scroll-prompt--top-right"
           initial="initial"
           animate="animate"
-          variants={scrollArrow}
+          variants={scrollPrompt}
           data-scroll
           data-scroll-speed="4"
           data-scroll-position="top"
         >
-          <span className="arrow-down"></span>
+          <motion.span
+            className="scroll-prompt__text scroll"
+            variants={scrollPromptLine}
+          >
+            Scroll
+          </motion.span>
+          <motion.span
+            className="scroll-prompt__text down"
+            variants={scrollPromptLine}
+          >
+            Down
+          </motion.span>
         </motion.div>
         <motion.div
-          className="scroll-down scroll-down--top-right"
+          className="scroll-prompt scroll-prompt--bottom-left"
           initial="initial"
           animate="animate"
-          variants={scrollArrow}
+          variants={scrollPrompt}
           data-scroll
           data-scroll-speed="4"
           data-scroll-position="top"
         >
-          <span className="arrow-down"></span>
+          <motion.span
+            className="scroll-prompt__text scroll"
+            variants={scrollPromptLine}
+          >
+            Scroll
+          </motion.span>
+          <motion.span
+            className="scroll-prompt__text down"
+            variants={scrollPromptLine}
+          >
+            Down
+          </motion.span>
         </motion.div>
         <motion.div
           className="hero__inner hero__inner--desktop"
