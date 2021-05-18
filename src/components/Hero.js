@@ -91,7 +91,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 H
@@ -115,7 +115,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-3"
                 data-scroll-delay="0.05"
               >
                 m
@@ -139,7 +139,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-3"
                 data-scroll-delay="0.05"
               >
                 o
@@ -167,7 +167,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 d
@@ -191,7 +191,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
+                data-scroll-speed="-2"
                 data-scroll-delay="0.05"
               >
                 e
@@ -215,7 +215,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
+                data-scroll-speed="-2"
                 data-scroll-delay="0.05"
               >
                 p
@@ -239,7 +239,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-3"
                 data-scroll-delay="0.05"
               >
                 b
@@ -263,7 +263,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 e
@@ -307,7 +307,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 h
@@ -359,7 +359,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
+                data-scroll-speed="-2"
                 data-scroll-delay="0.05"
               >
                 i,
@@ -383,7 +383,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 L
@@ -419,7 +419,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
+                data-scroll-speed="-2"
                 data-scroll-delay="0.05"
               >
                 a
@@ -443,7 +443,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="4"
+                data-scroll-speed="-4"
                 data-scroll-delay="0.05"
               >
                 v
@@ -467,7 +467,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 o
@@ -503,7 +503,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-3"
                 data-scroll-delay="0.05"
               >
                 b
@@ -527,7 +527,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="1"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 e
@@ -543,7 +543,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-3"
                 data-scroll-delay="0.05"
               >
                 i
@@ -563,7 +563,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="2"
+                data-scroll-speed="-2"
                 data-scroll-delay="0.05"
               >
                 t
@@ -587,7 +587,7 @@ function Hero() {
               <span
                 data-scroll
                 data-scroll-position="top"
-                data-scroll-speed="3"
+                data-scroll-speed="-1"
                 data-scroll-delay="0.05"
               >
                 u
