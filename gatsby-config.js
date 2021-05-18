@@ -1,27 +1,39 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: `Leon Brown`,
+    description: `Hi, I'm a developer based in the UK.`,
+    author: `Leon Brown`,
+    siteUrl: `https://leonbrown.dev`,
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "src/images/icon.png",
+        name: `Leon Brown`,
+        short_name: `Leon Brown`,
+        background_color: `#fff`,
+        theme_color: `#1d1d1d`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
+        lang: `en`,
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
-      __key: "images",
+      __key: `images`,
     },
   ],
-};
+}
