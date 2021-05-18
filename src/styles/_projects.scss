@@ -135,10 +135,15 @@
       flex-direction: column;
       justify-content: space-between;
       width: 65%;
+      height: 100%;
 
       @include smallTablet {
-        width: 100%;
         margin-top: 3rem;
+      }
+
+      @include phone {
+        width: 100%;
+        margin-top: 1.75rem;
       }
 
       .content {
