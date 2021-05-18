@@ -19,6 +19,16 @@ function Projects() {
           <span>commissioned, some are</span>
           <span>just for fun.</span>
         </div>
+        <div
+          className="statement statement--phone"
+          data-scroll
+          data-scroll-offset="25%"
+        >
+          <span>I love to learn by building real</span>
+          <span>things. Some of these projects</span>
+          <span>are commissioned, some are</span>
+          <span>just for fun.</span>
+        </div>
         <div className="project" data-scroll data-scroll-offset="20%">
           <div className="project__inner project__inner--info">
             <div className="info">

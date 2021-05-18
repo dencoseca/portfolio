@@ -13,6 +13,20 @@
       margin: 5rem auto;
     }
 
+    &--desktop {
+      @include phone {
+        display: none;
+      }
+    }
+
+    &--phone {
+      display: none;
+
+      @include phone {
+        display: block;
+      }
+    }
+
     &.is-inview {
       span {
         opacity: 1;
@@ -26,7 +40,7 @@
       transform: translateY(3rem);
       transition: all 1.2s cubic-bezier(0, 0.55, 0.45, 1);
 
-      @for $i from 1 through 5 {
+      @for $i from 1 through 9 {
         &:nth-of-type(#{$i}) {
           transition-delay: #{$i * 0.1}s;
         }

@@ -15,6 +15,22 @@ function Skills() {
           <span>deciding to make the career change into something</span>
           <span>I'm hugely passionate about.</span>
         </p>
+        <p
+          className="statement statement--phone"
+          data-scroll
+          data-scroll-offset="25%"
+        >
+          
+          <span>I love to design beautiful,</span>
+          <span>intuitive and responsive stuffs</span>
+          <span>on the web. My developer </span>
+          <span>journey has been a fun and</span>
+          <span>brain-wrecking year of</span>
+          <span>self-tuition after deciding to</span>
+          <span>make the career change into</span>
+          <span>something I'm hugely </span>
+          <span>passionate about.</span>
+        </p>
       </div>
       <div className="list">
         <div className="list__item">

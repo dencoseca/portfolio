@@ -11,6 +11,7 @@
 
   .statement {
     @include font-statement;
+    width: fit-content;
     margin: 15rem 0 15rem 50%;
 
     @include smallTablet {
@@ -18,7 +19,21 @@
     }
 
     @include phone {
-      margin: 5rem 0 5rem;
+      margin: 5rem auto 5rem auto;
+    }
+
+    &--desktop {
+      @include phone {
+        display: none;
+      }
+    }
+
+    &--phone {
+      display: none;
+
+      @include phone {
+        display: block;
+      }
     }
 
     &.is-inview {
@@ -49,6 +64,10 @@
 
     @include smallTablet {
       flex-direction: column;
+    }
+
+    @include phone {
+      padding-bottom: 0;
     }
 
     &:before {
