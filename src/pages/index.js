@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Footer from '../components/Footer'
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
@@ -9,6 +9,13 @@ import Skills from '../components/Skills'
 
 function Index() {
   let containerRef = useRef(null)
+
+  useEffect(() => {
+    // Grab inner height of window
+    let vh = window.innerHeight * 0.01
+    // Set css variable vh
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+  }, [])
 
   return (
     <LocomotiveScrollProvider
@@ -22,7 +29,7 @@ function Index() {
         },
         scrollFromAnywhere: true,
         multiplier: 0.75,
-        touchMultiplier: 3,
+        touchMultiplier: 2.5,
       }}
       containerRef={containerRef}
     >
