@@ -126,7 +126,7 @@ function Projects() {
                 <h3 className="content__title">Recipe Costings</h3>
                 <p className="content__description">
                   Recipe Costings is an app that, wait for it... costs recipes!
-                  Intended as an internal app for catering / service companies
+                  An internal app for catering / service companies
                   to get their staff involved in the creative process. Employees
                   can create recipes and collaborate with each other using a
                   database of existing stock items. Built with Express using EJS

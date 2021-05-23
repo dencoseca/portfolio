@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Leon Brown`,
-    description: `Hi, I'm a developer based in the UK.`,
+    description: `Hi, I'm a developer based in the UK, building beautiful, intuitive and responsive sites. Check out my portfolio.`,
     author: `Leon Brown`,
     siteUrl: `https://leonbrown.dev`,
   },
@@ -15,6 +15,7 @@ module.exports = {
       options: {
         name: `Leon Brown`,
         short_name: `Leon Brown`,
+        description: `Hi, I'm a developer based in the UK, building beautiful, intuitive and responsive sites. Check out my portfolio.`,
         background_color: `#fff`,
         theme_color: `#1d1d1d`,
         display: `standalone`,
