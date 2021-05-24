@@ -80,8 +80,8 @@ function Projects() {
           <div className="project__inner project__inner--image">
             <div className="image image--narrow">
               <StaticImage
-                src="../images/pokemon-sprites.jpg"
-                alt="generation one pokemon sprites"
+                src="../images/cherry-pie.jpg"
+                alt="a delicious cherry pie"
               />
               <div className="image__cover"></div>
             </div>
@@ -89,49 +89,15 @@ function Projects() {
           <div className="project__inner project__inner--info">
             <div className="info">
               <div className="content">
-                <h3 className="content__title">Pokemon Type Matcher</h3>
-                <p className="content__description">
-                  A fun little desktop React app that lets you compare the types
-                  of two Pokemon and see which one can play a super effective
-                  move! Because my emotional growth stopped in 1998. This is
-                  something I wish I had back in the day! I find developing in
-                  React to be loads of fun, I built this app to learn how to use
-                  class components since I learned React after the advent of
-                  functional components and hooks.
-                </p>
-              </div>
-              <div className="links">
-                <a
-                  href="https://pokemon-type-matcher.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
-                <a
-                  href="https://github.com/dencoSeca/pokemon-type-matcher"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {githubSVG}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="project" data-scroll data-scroll-offset="20%">
-          <div className="project__inner project__inner--info">
-            <div className="info">
-              <div className="content">
                 <h3 className="content__title">Recipe Costings</h3>
                 <p className="content__description">
                   Recipe Costings is an app that, wait for it... costs recipes!
-                  An internal app for catering / service companies
-                  to get their staff involved in the creative process. Employees
-                  can create recipes and collaborate with each other using a
-                  database of existing stock items. Built with Express using EJS
-                  to serve the HTML with the data stored on MongoDB. This was a
-                  great way for me to learn RESTful routing techniques.
+                  An internal app for catering / service companies to get their
+                  staff involved in the creative process. Employees can create
+                  recipes and collaborate with each other using a database of
+                  existing stock items. Built with Express using EJS to serve
+                  the HTML with the data stored on MongoDB. This was a great way
+                  for me to learn RESTful routing techniques.
                 </p>
               </div>
               <div className="links">
@@ -144,59 +110,6 @@ function Projects() {
                 </a>
                 <a
                   href="https://github.com/dencoSeca/recipe-costings"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {githubSVG}
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="project__inner project__inner--image">
-            <div className="image">
-              <StaticImage
-                src="../images/cherry-pie.jpg"
-                alt="a delicious cherry pie"
-              />
-              <div className="image__cover"></div>
-            </div>
-          </div>
-        </div>
-        <div className="project" data-scroll data-scroll-offset="20%">
-          <div className="project__inner project__inner--image">
-            <div className="image image--narrow">
-              <StaticImage
-                src="../images/marine-venus.jpg"
-                alt="a catamaran sailing in the carribean"
-              />
-              <div className="image__cover"></div>
-            </div>
-          </div>
-          <div className="project__inner project__inner--info">
-            <div className="info">
-              <div className="content">
-                <h3 className="content__title">Marine Venus</h3>
-                <p className="content__description">
-                  Marine Venus is a charter yacht based in the Caribbean. The
-                  site is intended to be a landing page / profile for potential
-                  holiday goers, to get a taste of what a sailing trip might
-                  entail. They are then redirected, at multiple points, to the
-                  charter company that hires out the yacht. This website is
-                  ultimately intended to direct the viewer away from itself and
-                  towards booking facilities. A single page layout was the most
-                  appropriate way to achieve this.
-                </p>
-              </div>
-              <div className="links">
-                <a
-                  href="https://marine-venus.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
-                <a
-                  href="https://github.com/dencoSeca/marine-venus"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -289,6 +202,93 @@ function Projects() {
                 </a>
                 <a
                   href="https://github.com/dencoSeca/acp-wordpress"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {githubSVG}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project" data-scroll data-scroll-offset="20%">
+          <div className="project__inner project__inner--info">
+            <div className="info">
+              <div className="content">
+                <h3 className="content__title">Pokemon Type Matcher</h3>
+                <p className="content__description">
+                  A fun little desktop React app that lets you compare the types
+                  of two Pokemon and see which one can play a super effective
+                  move! Because my emotional growth stopped in 1998. This is
+                  something I wish I had back in the day! I find developing in
+                  React to be loads of fun, I built this app to learn how to use
+                  class components since I learned React after the advent of
+                  functional components and hooks.
+                </p>
+              </div>
+              <div className="links">
+                <a
+                  href="https://pokemon-type-matcher.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {arrowSVG}
+                </a>
+                <a
+                  href="https://github.com/dencoSeca/pokemon-type-matcher"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {githubSVG}
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project__inner project__inner--image">
+            <div className="image image--narrow">
+              <StaticImage
+                src="../images/pokemon-sprites.jpg"
+                alt="generation one pokemon sprites"
+              />
+              <div className="image__cover"></div>
+            </div>
+          </div>
+        </div>
+        <div className="project" data-scroll data-scroll-offset="20%">
+          <div className="project__inner project__inner--image">
+            <div className="image image--narrow">
+              <StaticImage
+                src="../images/marine-venus.jpg"
+                alt="a catamaran sailing in the carribean"
+              />
+              <div className="image__cover"></div>
+            </div>
+          </div>
+          <div className="project__inner project__inner--info">
+            <div className="info">
+              <div className="content">
+                <h3 className="content__title">Marine Venus</h3>
+                <p className="content__description">
+                  Marine Venus is a charter yacht based in the Caribbean. The
+                  site is intended to be a landing page / profile for potential
+                  holiday goers, to get a taste of what a sailing trip might
+                  entail. They are then redirected, at multiple points, to the
+                  charter company that hires out the yacht. This website is
+                  ultimately intended to direct the viewer away from itself and
+                  towards booking facilities. A single page layout was the most
+                  appropriate way to achieve this.
+                </p>
+              </div>
+              <div className="links">
+                <a
+                  href="https://marine-venus.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {arrowSVG}
+                </a>
+                <a
+                  href="https://github.com/dencoSeca/marine-venus"
                   target="_blank"
                   rel="noreferrer"
                 >
