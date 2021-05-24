@@ -128,9 +128,17 @@ html {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
+
+  @include smallTablet {
+    font-size: 2.5rem;
+  }
 }
 
 @mixin font-bodycopy {
   font-family: 'Sk Modernist Regular';
   font-size: 1rem;
+
+  @include smallTablet {
+    font-size: 0.875rem;
+  }
 }

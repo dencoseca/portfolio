@@ -62,12 +62,8 @@
     padding: 2rem 0;
     position: relative;
 
-    @include smallTablet {
-      flex-direction: column;
-    }
-
     @include phone {
-      padding-bottom: 0;
+      flex-direction: column;
     }
 
     &:before {
@@ -113,18 +109,18 @@
     &__inner {
       width: 50%;
 
-      @include smallTablet {
+      @include phone {
         width: 100%;
       }
 
       &--image {
-        @include smallTablet {
+        @include phone {
           order: 1;
         }
       }
 
       &--info {
-        @include smallTablet {
+        @include phone {
           order: 2;
         }
       }
@@ -138,10 +134,11 @@
       height: 100%;
 
       @include smallTablet {
-        margin-top: 3rem;
+        width: 83%;
       }
 
       @include phone {
+        margin-top: 3rem;
         width: 100%;
         margin-top: 1.75rem;
       }
@@ -161,6 +158,11 @@
         display: flex;
         justify-content: space-between;
 
+        a {
+          display: flex;
+          align-items: flex-end;
+        }
+
         .arrow {
           width: 4rem;
         }
@@ -177,7 +179,7 @@
       &--narrow {
         width: 83%;
 
-        @include smallTablet {
+        @include phone {
           width: 100%;
         }
       }

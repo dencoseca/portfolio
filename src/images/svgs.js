@@ -4,7 +4,7 @@ export const arrowSVG = (
   <svg
     className="arrow"
     width="100%"
-    viewBox="0 0 67 67"
+    viewBox="0 0 67 57"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
