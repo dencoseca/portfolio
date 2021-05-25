@@ -4,6 +4,13 @@ A portfolio to showcase the skills I have taught myself as an aspiring Developer
 
 Built with Gatsby to serve a super fast static site, all the data is held locally for now but with future plans to fetch project data from a headless CMS such as Contentful. The animation libraries used are locomotive-scroll and framer-motion.
 
+#### Technologies
+
+- Gatsby 3.0
+- SASS
+- locomotive-scroll
+- framer-motion
+
 #### Live link
 
 [leonbrown.dev](https://leonbrown.dev)
@@ -20,5 +27,4 @@ The greatest challenge was the design. Teaching myself to code, I inevitably foc
 
 ## Skills Gained
 
-- Gatsby 3.0
 - locomotive-scroll
