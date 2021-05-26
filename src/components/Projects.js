@@ -38,14 +38,13 @@ function Projects() {
                   Bragazzi's is a traditional Italian cafe, delicatessen and
                   shop. It's deeply set in its community and has a very
                   particular feel and atmosphere. It needed a marketing website
-                  to root their online presence and show their personality. It
-                  needed to update business information based on Google Business
-                  Data so the client could keep using the interface he was
-                  familiar with. I wanted the website to get the most out of the
-                  beautiful photography we had available. Gatsby's Static Image
-                  component and its blazing fast serving of static sites were
-                  key in delivering this and, coupled with my love of React,
-                  made it an obvious choice.
+                  to root their online presence and show their personality. The
+                  site needed to update business information based on Google
+                  Business Data so the client could keep using the interface he
+                  was familiar with. I wanted the website to get the most out of
+                  the beautiful photography we had available. Gatsby's Static
+                  Image component and its blazing fast serving of static sites
+                  were key in delivering this and made it an obvious choice.
                 </p>
               </div>
               <div className="links">
@@ -97,7 +96,8 @@ function Projects() {
                   recipes and collaborate with each other using a database of
                   existing stock items. Built with Express using EJS to serve
                   the HTML with the data stored on MongoDB. This was a great way
-                  for me to learn RESTful routing techniques.
+                  for me to learn RESTful routing techniques and the backend and
+                  development side of the MERN stack.
                 </p>
               </div>
               <div className="links">
@@ -126,16 +126,16 @@ function Projects() {
                 <h3 className="content__title">Workflow</h3>
                 <p className="content__description">
                   Something I use a lot are task management apps. I decided to
-                  make a basic clone of one of my favourites, Notion. In doing
+                  make replicate the functionality with my own app. In doing
                   this I got to get to grips with connecting a front end with a
                   backend API. Building both from scratch and managing data
                   validation and pending server requests really helped me see
-                  the kinds of design decisions that are driven by the
-                  technologies in use. How and where state is stored, how much
-                  of my data to call up before it's needed to improve loading
-                  times, and a million other decisions! My other goal was to
-                  break away from using bootstrap for every project. Workflow's
-                  CSS is built with Bulma.
+                  the kinds of design decisions that become clear when
+                  developing full-stack apps. How and where state is stored,
+                  calling only the data needed to network usage, and a million
+                  other decisions! My other goal was to break away from using
+                  bootstrap and try a different CSS framework. Workflow's CSS is
+                  built with Bulma and minimal custom styling.
                 </p>
               </div>
               <div className="links">
@@ -183,13 +183,12 @@ function Projects() {
                 <p className="content__description">
                   Alexa documents her overland travels with beautiful
                   photographs. She needed somewhere to showcase the pictures she
-                  takes, for her friends, family and anyone else interested in
+                  takes for her friends, family and anyone else interested in
                   travel and exploration. The focus here is on simplicity, and
                   giving the full stage to the stunning landscapes she captures.
-                  Creating a custom WordPress website enabled me to have the
+                  Creating a custom WordPress theme enabled me to have the
                   control I wanted over the structure and styling while allowing
-                  Alexa to create galleries and manage image uploads
-                  independently.
+                  Alexa to create galleries and manage image uploads herself.
                 </p>
               </div>
               <div className="links">
@@ -217,13 +216,13 @@ function Projects() {
               <div className="content">
                 <h3 className="content__title">Pokemon Type Matcher</h3>
                 <p className="content__description">
-                  A fun little desktop React app that lets you compare the types
-                  of two Pokemon and see which one can play a super effective
-                  move! Because my emotional growth stopped in 1998. This is
-                  something I wish I had back in the day! I find developing in
-                  React to be loads of fun, I built this app to learn how to use
-                  class components since I learned React after the advent of
-                  functional components and hooks.
+                  A fun little React app that lets you compare the types of two
+                  Pokemon and see which one can play a super effective move!
+                  Because apparently my emotional growth stopped in 1998. This
+                  is something I wish I had back in the day! This was my first
+                  experience with React and it clicked with me instantly. I
+                  built this app to learn how to use React to round off the MERN
+                  stack.
                 </p>
               </div>
               <div className="links">
@@ -271,11 +270,10 @@ function Projects() {
                 <p className="content__description">
                   Marine Venus is a charter yacht based in the Caribbean. The
                   site is intended to be a landing page / profile for potential
-                  holiday goers, to get a taste of what a sailing trip might
-                  entail. They are then redirected, at multiple points, to the
-                  charter company that hires out the yacht. This website is
-                  ultimately intended to direct the viewer away from itself and
-                  towards booking facilities. A single page layout was the most
+                  holiday goers. They are then redirected, at multiple points,
+                  to the charter company that hires out the yacht. This website
+                  is ultimately intended to direct the viewer towards booking on
+                  the charter site. A single page layout was the most
                   appropriate way to achieve this.
                 </p>
               </div>
