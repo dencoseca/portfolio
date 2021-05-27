@@ -125,17 +125,17 @@ function Projects() {
               <div className="content">
                 <h3 className="content__title">Workflow</h3>
                 <p className="content__description">
-                  Something I use a lot are task management apps. I decided to
-                  make replicate the functionality with my own app. In doing
-                  this I got to get to grips with connecting a front end with a
-                  backend API. Building both from scratch and managing data
-                  validation and pending server requests really helped me see
-                  the kinds of design decisions that become clear when
-                  developing full-stack apps. How and where state is stored,
-                  calling only the data needed to network usage, and a million
-                  other decisions! My other goal was to break away from using
-                  bootstrap and try a different CSS framework. Workflow's CSS is
-                  built with Bulma and minimal custom styling.
+                  Something I use a lot are task management apps. Making one of
+                  my wn let me get to grips with connecting a front end with a
+                  backend API using the full MERN stack. Building both from
+                  scratch and managing data validation and pending server
+                  requests really helped me see the kinds of design decisions
+                  that become clear when developing full-stack apps. How and
+                  where state is stored, calling only the data needed to reduce
+                  network usage, and a million other decisions! My other goal
+                  was to break away from using bootstrap and try a different CSS
+                  framework. Workflow's CSS is built with Bulma and minimal
+                  custom styling.
                 </p>
               </div>
               <div className="links">
@@ -188,7 +188,9 @@ function Projects() {
                   giving the full stage to the stunning landscapes she captures.
                   Creating a custom WordPress theme enabled me to have the
                   control I wanted over the structure and styling while allowing
-                  Alexa to create galleries and manage image uploads herself.
+                  Alexa to create galleries and manage image uploads herself. I
+                  have plans to rebuild this site using Gatsby, graphql and a
+                  headless CMS.
                 </p>
               </div>
               <div className="links">
@@ -220,9 +222,9 @@ function Projects() {
                   Pokemon and see which one can play a super effective move!
                   Because apparently my emotional growth stopped in 1998. This
                   is something I wish I had back in the day! This was my first
-                  experience with React and it clicked with me instantly. I
-                  built this app to learn how to use React to round off the MERN
-                  stack.
+                  experience with React and it clicked with me instantly. I made
+                  this app to learn how to build a front end with React to round
+                  off the MERN stack.
                 </p>
               </div>
               <div className="links">
@@ -269,7 +271,7 @@ function Projects() {
                 <h3 className="content__title">Marine Venus</h3>
                 <p className="content__description">
                   Marine Venus is a charter yacht based in the Caribbean. The
-                  site is intended to be a landing page / profile for potential
+                  site is intended to be a showcase for potential
                   holiday goers. They are then redirected, at multiple points,
                   to the charter company that hires out the yacht. This website
                   is ultimately intended to direct the viewer towards booking on
