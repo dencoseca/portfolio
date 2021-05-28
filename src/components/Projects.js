@@ -202,7 +202,7 @@ function Projects() {
                   {arrowSVG}
                 </a>
                 <a
-                  href="https://github.com/dencoSeca/acp-wordpress"
+                  href="https://github.com/dencoSeca/alexa-christou-photography-wordpress"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -271,12 +271,12 @@ function Projects() {
                 <h3 className="content__title">Marine Venus</h3>
                 <p className="content__description">
                   Marine Venus is a charter yacht based in the Caribbean. The
-                  site is intended to be a showcase for potential
-                  holiday goers. They are then redirected, at multiple points,
-                  to the charter company that hires out the yacht. This website
-                  is ultimately intended to direct the viewer towards booking on
-                  the charter site. A single page layout was the most
-                  appropriate way to achieve this.
+                  site is intended to be a showcase for potential holiday goers.
+                  They are then redirected, at multiple points, to the charter
+                  company that hires out the yacht. This website is ultimately
+                  intended to direct the viewer towards booking on the charter
+                  site. A single page layout was the most appropriate way to
+                  achieve this.
                 </p>
               </div>
               <div className="links">
