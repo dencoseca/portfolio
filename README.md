@@ -27,5 +27,5 @@ The greatest challenge was the design. Teaching myself to code, I inevitably foc
 
 ## Skills Gained
 
-* locomotive-scroll
-* Design process
+  * locomotive-scroll
+  * Design process
