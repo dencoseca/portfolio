@@ -126,7 +126,7 @@ function Projects() {
                 <h3 className="content__title">Workflow</h3>
                 <p className="content__description">
                   Something I use a lot are task management apps. Making one of
-                  my wn let me get to grips with connecting a front end with a
+                  my own let me get to grips with connecting a front end with a
                   backend API using the full MERN stack. Building both from
                   scratch and managing data validation and pending server
                   requests really helped me see the kinds of design decisions
