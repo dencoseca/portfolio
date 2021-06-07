@@ -298,6 +298,48 @@ function Projects() {
             </div>
           </div>
         </div>
+        <div className="project" data-scroll data-scroll-offset="20%">
+          <div className="project__inner project__inner--info">
+            <div className="info">
+              <div className="content">
+                <h3 className="content__title">Natter</h3>
+                <p className="content__description">Coming soon...</p>
+                <p className="content__description">
+                  A Twitter clone. I'm currently working on this
+                  project to learn the DevOps lifecycle. The goal is to have a
+                  fully pipelined CI/CD workflow that takes my Docker containers,
+                  implements fully automated testing and deploys to an AWS VPC
+                  with a private SubNet for my database.
+                </p>
+              </div>
+              {/* <div className="links">
+                <a
+                  href="https://marine-venus.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {arrowSVG}
+                </a>
+                <a
+                  href="https://github.com/dencoSeca/marine-venus"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {githubSVG}
+                </a>
+              </div> */}
+            </div>
+          </div>
+          <div className="project__inner project__inner--image">
+            <div className="image">
+              <StaticImage
+                src="../images/chicken.jpg"
+                alt="a catamaran sailing in the carribean"
+              />
+              <div className="image__cover"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )
