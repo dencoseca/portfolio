@@ -25,32 +25,6 @@
       format('svg');
 }
 
-@font-face {
-  font-family: 'Sk Modernist Bold';
-  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot');
-  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.woff')
-      format('woff'),
-    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.ttf')
-      format('truetype'),
-    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.svg#webfont')
-      format('svg');
-}
-
-@font-face {
-  font-family: 'Sk Modernist Mono';
-  src: url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.eot');
-  src: url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.woff')
-      format('woff'),
-    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.ttf')
-      format('truetype'),
-    url('../fonts/sk-modernist/Mono/sk-modernist-mono-webfont.svg#webfont')
-      format('svg');
-}
-
 // Schnyder Cond M Light
 @font-face {
   font-family: 'Schnyder Cond M Light';
@@ -65,9 +39,13 @@
       format('svg');
 }
 
+$displayFont: 'Schnyder Cond M Light';
+$bodyFontLight: 'Sk Modernist Light';
+$bodyFontRegular: 'Sk Modernist Regular';
+
 body,
 html {
-  font-family: 'Sk Modernist Regular';
+  font-family: $bodyFontRegular;
   /* Adjust font size */
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -81,7 +59,7 @@ html {
 }
 
 @mixin font-display {
-  font-family: 'Schnyder Cond M Light';
+  font-family: $displayFont;
   text-transform: uppercase;
   font-size: 10rem;
 
@@ -103,7 +81,7 @@ html {
 }
 
 @mixin font-statement {
-  font-family: 'Sk Modernist Light';
+  font-family: $bodyFontLight;
   font-size: 3rem;
 
   @include smallDesktop {
@@ -116,7 +94,7 @@ html {
 }
 
 @mixin font-heading {
-  font-family: 'Schnyder Cond M Light';
+  font-family: $displayFont;
   font-size: 5rem;
   text-transform: uppercase;
 
@@ -135,7 +113,7 @@ html {
 }
 
 @mixin font-bodycopy {
-  font-family: 'Sk Modernist Regular';
+  font-family: $bodyFontRegular;
   font-size: 1rem;
 
   @include smallTablet {
