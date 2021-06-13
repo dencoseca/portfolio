@@ -16,13 +16,26 @@
   font-family: 'Sk Modernist Regular';
   src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot');
   src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.woff')
-      format('woff'),
-    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.ttf')
-      format('truetype'),
-    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.svg#webfont')
-      format('svg');
+  format('embedded-opentype'),
+  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.woff')
+  format('woff'),
+  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.ttf')
+  format('truetype'),
+  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.svg#webfont')
+  format('svg');
+}
+
+@font-face {
+  font-family: 'Sk Modernist Bold';
+  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot');
+  src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot?#iefix')
+  format('embedded-opentype'),
+  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.woff')
+  format('woff'),
+  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.ttf')
+  format('truetype'),
+  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.svg#webfont')
+  format('svg');
 }
 
 // Schnyder Cond M Light
@@ -42,6 +55,7 @@
 $displayFont: 'Schnyder Cond M Light';
 $bodyFontLight: 'Sk Modernist Light';
 $bodyFontRegular: 'Sk Modernist Regular';
+$bodyFontBold: 'Sk Modernist Bold';
 
 body,
 html {
@@ -49,7 +63,7 @@ html {
   /* Adjust font size */
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-  /* Font varient */
+  /* Font variant */
   font-variant-ligatures: none;
   -webkit-font-variant-ligatures: none;
   /* Smoothing */
