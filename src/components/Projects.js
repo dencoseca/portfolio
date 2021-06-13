@@ -305,11 +305,10 @@ function Projects() {
                 <h3 className="content__title">Natter</h3>
                 <p className="content__description">Coming soon...</p>
                 <p className="content__description">
-                  A Twitter clone. I'm currently working on this
-                  project to learn the DevOps lifecycle. The goal is to have a
-                  fully pipelined CI/CD workflow that takes my Docker containers,
-                  implements fully automated testing and deploys to an AWS VPC
-                  with a private SubNet for my database.
+                  A Twitter clone. I'm currently working on this project to
+                  learn the DevOps lifecycle. The goal is to have a fully
+                  pipelined CI/CD workflow that takes my Docker containers and
+                  implements fully automated build test and deploy to AWS.
                 </p>
               </div>
               {/* <div className="links">

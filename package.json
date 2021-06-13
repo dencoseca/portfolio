@@ -31,5 +31,8 @@
     "react-helmet": "^6.1.0",
     "react-locomotive-scroll": "^0.1.8",
     "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "prettier": "2.3.1"
   }
 }
