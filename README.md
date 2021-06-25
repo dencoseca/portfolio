@@ -23,7 +23,11 @@ Complete. With future plans to improve data storage utilising graphql and Conten
 
 As a site intended to sell myself to potential employers / clients I wanted it simply to be visually appealing and quickly state my skill level and interests.
 
-The greatest challenge was the design. Teaching myself to code, I inevitably focussed mainly on the technical side of frontend development, and tutorials don’t put much emphasis on visual appeal above functionality. Drawing heavily on showcase site like Awwwards and One Page Love really helped me discover current trends and produce the clean, modern design that I wanted to use to display my projects.
+The greatest challenge was the design. Teaching myself to code, I inevitably focussed mainly on the technical 
+aspects of development, and tutorials don’t put much emphasis on visual appeal above functionality. Drawing heavily 
+on showcase sites like Awwwards and One Page Love really helped me discover good design practices and produce the 
+clean, modern 
+design that I wanted to use to display my projects.
 
 ## Skills Gained
 

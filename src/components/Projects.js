@@ -15,9 +15,8 @@ function Projects() {
         >
           <span>I love to learn by building</span>
           <span>real things. Some of these</span>
-          <span>projects are </span>
-          <span>commissioned, some are</span>
-          <span>just for fun.</span>
+          <span>projects are commissioned,</span>
+          <span>some are just for fun.</span>
         </div>
         <div
           className="statement statement--phone"

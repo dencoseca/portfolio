@@ -7,7 +7,7 @@ function Skills() {
         <p
           className="statement statement--desktop"
           data-scroll
-          data-scroll-offset="25%"
+          data-scroll-offset="20%"
         >
           <span>I love to design beautiful, intuitive and responsive</span>
           <span>stuffs on the web. My developer journey has been a</span>
@@ -20,7 +20,6 @@ function Skills() {
           data-scroll
           data-scroll-offset="25%"
         >
-          
           <span>I love to design beautiful,</span>
           <span>intuitive and responsive stuffs</span>
           <span>on the web. My developer </span>
@@ -52,7 +51,7 @@ function Skills() {
             data-scroll-delay="0.05"
             data-scroll-offset="-30%"
           >
-            Gatsby
+            AWS
           </span>
         </div>
         <div className="list__item">
@@ -103,7 +102,7 @@ function Skills() {
           <span
             data-scroll
             data-scroll-direction="horizontal"
-            data-scroll-speed="3"
+            data-scroll-speed="2.5"
             data-scroll-delay="0.05"
             data-scroll-offset="-30%"
           >
