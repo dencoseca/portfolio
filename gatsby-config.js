@@ -3,7 +3,7 @@ module.exports = {
     title: `Leon Brown`,
     description: `Hi, I'm a developer based in the UK, building beautiful, intuitive and responsive sites. Check out my portfolio.`,
     author: `Leon Brown`,
-    siteUrl: `https://leonbrown.dev`,
+    url: `https://leonbrown.dev`,
   },
   plugins: [
     `gatsby-plugin-sass`,

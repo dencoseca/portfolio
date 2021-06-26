@@ -6,6 +6,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import SEO from '../components/SEO'
 
 function Index() {
   let containerRef = useRef(null)
@@ -32,9 +33,9 @@ function Index() {
         touchMultiplier: 2.5,
       }}
       containerRef={containerRef}
-    >
       <main data-scroll-container ref={containerRef}>
         <>
+          <SEO />
           <Hero />
           <Skills />
           <Projects />
