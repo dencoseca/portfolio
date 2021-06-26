@@ -43,7 +43,9 @@ function Projects() {
                   was familiar with. I wanted the website to get the most out of
                   the beautiful photography we had available. Gatsby's Static
                   Image component and its blazing fast serving of static sites
-                  were key in delivering this and made it an obvious choice.
+                  were key in delivering this and made it an obvious choice. And
+                  if the air pressure is just right, it gets 100 across the
+                  board on lighthouse! Yay!
                 </p>
               </div>
               <div className="links">
@@ -270,12 +272,12 @@ function Projects() {
                 <h3 className="content__title">Marine Venus</h3>
                 <p className="content__description">
                   Marine Venus is a charter yacht based in the Caribbean. The
-                  site is intended to be a showcase for potential holiday goers.
-                  They are then redirected, at multiple points, to the charter
-                  company that hires out the yacht. This website is ultimately
-                  intended to direct the viewer towards booking on the charter
-                  site. A single page layout was the most appropriate way to
-                  achieve this.
+                  site is intended to be a brochure site for potential holiday
+                  goers. They are then redirected, at multiple points, to the
+                  charter company that hires out the yacht. This website is
+                  ultimately intended to direct the viewer towards booking on
+                  the charter site. A single page layout was the most
+                  appropriate way to achieve this.
                 </p>
               </div>
               <div className="links">
