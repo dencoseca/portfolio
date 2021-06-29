@@ -33,6 +33,7 @@ function Index() {
         touchMultiplier: 2.5,
       }}
       containerRef={containerRef}
+    >
       <main data-scroll-container ref={containerRef}>
         <>
           <SEO />
