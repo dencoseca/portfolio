@@ -17,9 +17,6 @@ function Footer() {
           <a href="mailto:leon.brown71@icloud.com" className="link">
             EMAIL
           </a>
-          <a href="tel:+447910053765" className="link">
-            PHONE
-          </a>
           <a
             href="https://github.com/dencoseca"
             target="_blank"
@@ -27,6 +24,14 @@ function Footer() {
             className="link"
           >
             GITHUB
+          </a>
+          <a
+            href="https://www.linkedin.com/in/leonbrown-dev/"
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LINKEDIN
           </a>
         </div>
         <div
