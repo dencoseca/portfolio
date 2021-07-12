@@ -5,37 +5,25 @@
   src: url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.eot?#iefix')
       format('embedded-opentype'),
     url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.woff')
-      format('woff'),
-    url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.ttf')
-      format('truetype'),
-    url('../fonts/sk-modernist/Light/sk-modernist-light-webfont.svg#webfont')
-      format('svg');
+      format('woff');
 }
 
 @font-face {
   font-family: 'Sk Modernist Regular';
   src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot');
   src: url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.eot?#iefix')
-  format('embedded-opentype'),
-  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.woff')
-  format('woff'),
-  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.ttf')
-  format('truetype'),
-  url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.svg#webfont')
-  format('svg');
+      format('embedded-opentype'),
+    url('../fonts/sk-modernist/Regular/sk-modernist-regular-webfont.woff')
+      format('woff');
 }
 
 @font-face {
   font-family: 'Sk Modernist Bold';
   src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot');
   src: url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.eot?#iefix')
-  format('embedded-opentype'),
-  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.woff')
-  format('woff'),
-  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.ttf')
-  format('truetype'),
-  url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.svg#webfont')
-  format('svg');
+      format('embedded-opentype'),
+    url('../fonts/sk-modernist/Bold/sk-modernist-bold-webfont.woff')
+      format('woff');
 }
 
 // Schnyder Cond M Light
@@ -45,11 +33,7 @@
   src: url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.eot?#iefix')
       format('embedded-opentype'),
     url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.woff')
-      format('woff'),
-    url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.ttf')
-      format('truetype'),
-    url('../fonts/schnyder-cond-m-light/Schnyder-Cond-M-Light.svg#webfont')
-      format('svg');
+      format('woff');
 }
 
 $displayFont: 'Schnyder Cond M Light';
