@@ -312,13 +312,13 @@ function Projects() {
                   implements fully automated build test and deploy to AWS.
                 </p>
               </div>
-              {/* <div className="links">
+              <div className="links">
                 <a
                   href="https://marine-venus.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {arrowSVG}
+                  {/*{arrowSVG}*/}
                 </a>
                 <a
                   href="https://github.com/dencoSeca/marine-venus"
@@ -327,7 +327,7 @@ function Projects() {
                 >
                   {githubSVG}
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="project__inner project__inner--image">
