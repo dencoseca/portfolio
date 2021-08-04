@@ -321,7 +321,7 @@ function Projects() {
                   {/*{arrowSVG}*/}
                 </a>
                 <a
-                  href="https://github.com/dencoSeca/marine-venus"
+                  href="https://github.com/dencoSeca/natter"
                   target="_blank"
                   rel="noreferrer"
                 >
