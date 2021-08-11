@@ -97,8 +97,8 @@ function Projects() {
                   recipes and collaborate with each other using a database of
                   existing stock items. Built with Express using EJS to serve
                   the HTML with the data stored on MongoDB. This was a great way
-                  for me to learn RESTful routing techniques and the backend and
-                  development side of the MERN stack.
+                  for me to learn RESTful routing techniques and the backend
+                  side of the MERN stack.
                 </p>
               </div>
               <div className="links">
@@ -309,7 +309,8 @@ function Projects() {
                   A Twitter clone. I'm currently working on this project to
                   learn the DevOps lifecycle. The goal is to have a fully
                   pipelined CI/CD workflow that takes my Docker containers and
-                  implements fully automated build test and deploy to AWS.
+                  implements fully automated build test and deploy to AWS. Using
+                  Terraform to implement IAC.
                 </p>
               </div>
               <div className="links">
