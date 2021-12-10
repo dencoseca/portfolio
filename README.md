@@ -1,8 +1,8 @@
 # Developer Portfolio
 
-A portfolio to showcase the skills I have taught myself as an aspiring Developer.
+A portfolio to showcase the skills I have as a Developer.
 
-Built with Gatsby to serve a super fast static site, all the data is held locally for now but with future plans to fetch project data from a headless CMS such as Contentful so I can add blog functionality. The animation libraries used are locomotive-scroll and framer-motion.
+Built with Gatsby to serve a super-fast static site, all the data is held locally for now but with future plans to fetch project data from a headless CMS such as Contentful so I can add blog functionality. The animation libraries used are locomotive-scroll and framer-motion.
 
 #### Technologies
 
@@ -28,6 +28,8 @@ aspects of development, and tutorials don’t put much emphasis on visual appeal
 on showcase sites like Awwwards and One Page Love really helped me discover good design practices and produce the 
 clean, modern 
 design that I wanted to use to display my projects.
+
+Now that I'm a Consultant Software Engineer with Infinity Works I have plans to change the site content to match my current experience.
 
 ## Skills Gained
 
