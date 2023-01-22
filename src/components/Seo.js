@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const SEO = ({ title, description, article }) => {
+const Seo = ({ title, description, article }) => {
   const { site } = useStaticQuery(query)
   const { defaultTitle, defaultDescription, siteUrl } = site.siteMetadata
   const seo = {
@@ -20,9 +20,9 @@ const SEO = ({ title, description, article }) => {
     url: seo.url,
     mainEntityOfPage: seo.url,
     description: seo.description,
-    headline: `Hi, I'm Leon. A developer based in Sheffield.`,
+    headline: `Hi, I'm Leon. A developer based in the UK.`,
     name: seo.title,
-    email: 'leon.brown71@icloud.com',
+    email: 'picnic-mitoses.0e@icloud.com',
     jobTitle: 'Web developer',
     inLanguage: 'en-UK',
   }
@@ -48,7 +48,7 @@ const SEO = ({ title, description, article }) => {
   )
 }
 
-export default SEO
+export default Seo
 
 const query = graphql`
   query SEO {
@@ -62,13 +62,13 @@ const query = graphql`
   }
 `
 
-SEO.propTypes = {
+Seo.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   article: PropTypes.bool,
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   title: 'Leon Brown',
   description:
     "Hi, I'm a developer based in the UK, building beautiful, intuitive and responsive sites. Check out my portfolio.",
