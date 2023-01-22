@@ -14,7 +14,7 @@ function Footer() {
           data-scroll-speed="7"
           data-scroll-position="bottom"
         >
-          <a href="mailto:leon.brown71@icloud.com" className="link">
+          <a href="mailto:picnic-mitoses.0e@icloud.com" className="link">
             EMAIL
           </a>
           <a

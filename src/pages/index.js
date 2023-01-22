@@ -6,7 +6,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
-import SEO from '../components/SEO'
+import Seo from '../components/Seo'
 
 function Index() {
   let containerRef = useRef(null)
@@ -36,7 +36,7 @@ function Index() {
     >
       <main data-scroll-container ref={containerRef}>
         <>
-          <SEO />
+          <Seo />
           <Hero />
           <Skills />
           <Projects />
