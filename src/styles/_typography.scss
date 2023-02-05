@@ -36,10 +36,10 @@
       format('woff');
 }
 
-$displayFont: 'Schnyder Cond M Light';
-$bodyFontLight: 'Sk Modernist Light';
-$bodyFontRegular: 'Sk Modernist Regular';
-$bodyFontBold: 'Sk Modernist Bold';
+$displayFont: 'Schnyder Cond M Light', serif;
+$bodyFontLight: 'Sk Modernist Light', sans-serif;
+$bodyFontRegular: 'Sk Modernist Regular', sans-serif;
+$bodyFontBold: 'Sk Modernist Bold', sans-serif;
 
 body,
 html {
