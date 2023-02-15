@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from 'react'
 import Footer from '../components/Footer'
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
-// A useless comment
-
 // Components
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
