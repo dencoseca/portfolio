@@ -102,13 +102,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="https://recipe-costings.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
+                {/*<a*/}
+                {/*  href="https://recipe-costings.herokuapp.com/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/recipe-costings"
                   target="_blank"
@@ -140,13 +140,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="https://workflow.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
+                {/*<a*/}
+                {/*  href="https://workflow.vercel.app/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/workflow"
                   target="_blank"
@@ -195,13 +195,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="http://www.alexachristouphotography.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
+                {/*<a*/}
+                {/*  href="http://www.alexachristouphotography.com/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/alexa-christou-photography-wordpress"
                   target="_blank"
@@ -229,13 +229,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="https://pokemon-type-matcher.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
+                {/*<a*/}
+                {/*  href="https://pokemon-type-matcher.vercel.app/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/pokemon-type-matcher"
                   target="_blank"
@@ -281,13 +281,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="https://marine-venus.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {arrowSVG}
-                </a>
+                {/*<a*/}
+                {/*  href="https://marine-venus.vercel.app/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/marine-venus"
                   target="_blank"
@@ -314,13 +314,13 @@ function Projects() {
                 </p>
               </div>
               <div className="links">
-                <a
-                  href="https://marine-venus.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {/*{arrowSVG}*/}
-                </a>
+                {/*<a*/}
+                {/*  href="https://marine-venus.vercel.app/"*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noreferrer"*/}
+                {/*>*/}
+                {/*  {arrowSVG}*/}
+                {/*</a>*/}
                 <a
                   href="https://github.com/dencoSeca/natter"
                   target="_blank"
