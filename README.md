@@ -13,7 +13,7 @@ Built with Gatsby to serve a super-fast static site, all the data is held locall
 
 #### Live link
 
-[Leon Brown Portfolio](https://leonbrown.dev)
+[leonbrown.dev](https://leonbrown.dev)
 
 ## Status
 
