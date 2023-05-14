@@ -66,89 +66,89 @@ function Hero() {
 
   return (
     <AnimatePresence>
-      <section className="hero" id="hero" data-scroll-section>
+      <section className='hero' id='hero' data-scroll-section>
         <motion.div
-          className="scroll-prompt scroll-prompt--top-right"
-          initial="initial"
-          animate="animate"
+          className='scroll-prompt scroll-prompt--top-right'
+          initial='initial'
+          animate='animate'
           variants={scrollPrompt}
           data-scroll
-          data-scroll-speed="2"
-          data-scroll-position="top"
+          data-scroll-speed='2'
+          data-scroll-position='top'
         >
           <motion.span
-            className="scroll-prompt__text scroll"
+            className='scroll-prompt__text scroll'
             variants={scrollPromptLine}
           >
             Scroll
           </motion.span>
           <motion.span
-            className="scroll-prompt__text down"
+            className='scroll-prompt__text down'
             variants={scrollPromptLine}
           >
             Down
           </motion.span>
         </motion.div>
         <motion.div
-          className="scroll-prompt scroll-prompt--bottom-left"
-          initial="initial"
-          animate="animate"
+          className='scroll-prompt scroll-prompt--bottom-left'
+          initial='initial'
+          animate='animate'
           variants={scrollPrompt}
           data-scroll
-          data-scroll-speed="2"
-          data-scroll-position="top"
+          data-scroll-speed='2'
+          data-scroll-position='top'
         >
           <motion.span
-            className="scroll-prompt__text scroll"
+            className='scroll-prompt__text scroll'
             variants={scrollPromptLine}
           >
             Scroll
           </motion.span>
           <motion.span
-            className="scroll-prompt__text down"
+            className='scroll-prompt__text down'
             variants={scrollPromptLine}
           >
             Down
           </motion.span>
         </motion.div>
         <motion.div
-          className="hero__inner hero__inner--desktop"
-          id="sticky-target"
-          initial="initial"
-          animate="animate"
+          className='hero__inner hero__inner--desktop'
+          id='sticky-target'
+          initial='initial'
+          animate='animate'
           variants={heroInner}
         >
-          <div className="line">
-            <motion.div className="title top" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title top' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='2'
+                data-scroll-delay='0.05'
               >
                 Hi, I'm Leon,
               </span>
             </motion.div>
           </div>
-          <div className="line">
-            <motion.div className="title middle" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title middle' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='1'
+                data-scroll-delay='0.05'
               >
                 a developer based
               </span>
             </motion.div>
           </div>
-          <div className="line">
-            <motion.div className="title bottom" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title bottom' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-0.5"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='-0.5'
+                data-scroll-delay='0.05'
               >
                 in the UK.
               </span>
@@ -156,55 +156,55 @@ function Hero() {
           </div>
         </motion.div>
         <motion.div
-          className="hero__inner hero__inner--tablet"
-          id="sticky-target"
-          initial="initial"
-          animate="animate"
+          className='hero__inner hero__inner--tablet'
+          id='sticky-target'
+          initial='initial'
+          animate='animate'
           variants={heroInner}
         >
-          <div className="line">
-            <motion.div className="title top" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title top' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='3'
+                data-scroll-delay='0.05'
               >
                 Hi, I'm Leon,
               </span>
             </motion.div>
           </div>
-          <div className="line">
-            <motion.div className="title middle" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title middle' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="2"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='2'
+                data-scroll-delay='0.05'
               >
                 a developer
               </span>
             </motion.div>
           </div>
-          <div className="line">
-            <motion.div className="title bottom" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title bottom' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="1"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='1'
+                data-scroll-delay='0.05'
               >
                 based in
               </span>
             </motion.div>
           </div>
-          <div className="line">
-            <motion.div className="title bottom" variants={heroLine}>
+          <div className='line'>
+            <motion.div className='title bottom' variants={heroLine}>
               <span
                 data-scroll
-                data-scroll-position="top"
-                data-scroll-speed="-0.5"
-                data-scroll-delay="0.05"
+                data-scroll-position='top'
+                data-scroll-speed='-0.5'
+                data-scroll-delay='0.05'
               >
                 the UK.
               </span>
